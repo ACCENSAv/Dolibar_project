@@ -1,0 +1,98 @@
+Delivered-To: guykeny.ndayizeye8@gmail.com
+Received: by 2002:a05:7508:3d4a:b0:92:fd56:6792 with SMTP id ei10csp3132104gbb;
+        Mon, 28 Jul 2025 05:51:27 -0700 (PDT)
+X-Received: by 2002:a05:6000:882:b0:3a5:8977:e0f8 with SMTP id ffacd0b85a97d-3b77665e35cmr6872583f8f.19.1753707087306;
+        Mon, 28 Jul 2025 05:51:27 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1753707087; cv=none;
+        d=google.com; s=arc-20240605;
+        b=jU2f01ch48T7eDQTvYrHEPv2/7b7SRuU+LZOC4a7MzvFqj4HGCcZs8U6mqB/55GFuH
+         U2D5w3/CIBTC8J70J8Gg7C52DxhW7+3KMnEtTXTJvWmTHA0ALcJs973QWjbfA063v/SW
+         m7Z7o/DfXI8QMQunyqIaiL7ShYVLTHQsyIqKgRmddL0Oo+0Czpe0KkG2/9tWd92kR24c
+         TaN5q15aZk8ur41XPaF2dediB/rDsGteSoOWQYp2tqEmWipArB6F+Fujiva/PTUalwsC
+         yiOpbBW4oEU9fiItupqHWFRp9lrSNYvLuUCDf5ALl1xhdDpMjvr8zshlIdkm7ouankro
+         lobw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=ng+3zJzaB+KM6CXjROHLwZ/IMByJ+QTFyrwrcARanw4=;
+        fh=itzSYdk8MEFhw6xQJKZL3TF3LxobkaUL5knfby+c6pA=;
+        b=QNOXohU56iZu5L03LQqiINiISbSEs/jZ4xttZmaxVd4qvCWUuVGXGWk8F5RTCbdkt4
+         NA2AiefJ2KKqMDQzo55hed63mLVkLfzMkb91vEHC4FBXk7Qr2BPlbSwKj4thLB5q0rG7
+         1qGfcyc6yQagptzps3qC2g8tOI1TCjGAKOA7dnXmCqO2znjeA9WHnn+o+UhBCVj1NBhM
+         TizlF9vAhO1JOO6eHjUvmcfzckNeIip1rPRR3X1aBmL2UvGi2vRnzXe/mCq2FU0vXYrH
+         QyKhjY30BEBFDig0xO81fnI55CNN6lctTo9Yw7gMG2x8ojLwWXVXlTBKV+QgeiVTT+7i
+         YRAA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=AKqL9jup;
+       spf=pass (google.com: domain of guydany8@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=guydany8@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <guydany8@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ffacd0b85a97d-3b771349d77sor2066133f8f.2.2025.07.28.05.51.27
+        for <guykeny.ndayizeye8@gmail.com>
+        (Google Transport Security);
+        Mon, 28 Jul 2025 05:51:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of guydany8@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=AKqL9jup;
+       spf=pass (google.com: domain of guydany8@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=guydany8@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1753707086; x=1754311886; dara=google.com;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=ng+3zJzaB+KM6CXjROHLwZ/IMByJ+QTFyrwrcARanw4=;
+        b=AKqL9jupP2BW3ug4nLhaKxrtzIsa4Q1Il2El+YgP0RMhgRgP0W0ewTZXpyXxMl4LoH
+         JmaSOWBwroOK3qq2SEQW/G/tqPWv1ilSnyXFQcfAHe798aWPaIptyib/4on+jsrnjju+
+         QNhhJcQasiUW9e10gWdN1vfJBi332LbycMZy4Td8QMT8c/s0el2u+y2LeClADU+oIyif
+         g/Fy+/MFNVENAekbGLQ9AT8mHP6Cz1RHvlppGKjfhVjuEeg0qL3jsaVxSAcW+q8o2BH2
+         9RLW8aTVRSvAiX4VQoDws5ywchKOMtFkl1ejnVA7JEdQEyXOu7PAvFbMDYiXV7pZlMmA
+         1+RA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1753707086; x=1754311886;
+        h=to:message-id:subject:date:mime-version:from
+         :content-transfer-encoding:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=ng+3zJzaB+KM6CXjROHLwZ/IMByJ+QTFyrwrcARanw4=;
+        b=QXHX7HCNO40a/7oU5fVmhaa2zNPPP/PJrT75I3LVT6nq54ku/d2HuAQ5lkV0hstVVp
+         /neJiLNlf3/D7n0fT8NRkpPGr65NiC+nD+9X9Dm5dyr6BrII/KDFUfvsB7GRV07AGIzb
+         f6zMybilFrUgF450cWY2Tf7FKwH4PW/QP8Fou12BphNWQF6uiTBqnHFn6J0yi3kzT3Zy
+         c7qQ0h1I3q5oGcduGhwK0V8yNYvKF3XgUE04Tj8WqX/sjMQj82JI94wst2ckfdY8KloX
+         ttxRkCUZ38vOX13EbjOrqCvQwMtjvanXoO3nfzegVCBryVHlKeoZSANDm6rmokJe1tez
+         7aVA==
+X-Gm-Message-State: AOJu0YwJ5U9Vnz8FK9lVC3oU79ItDVV8qP51eamC6XJpErJahK41dzEn
+	Sd50yjgu50o/3y63gP2ZOd1tJydFIMSPUlmrQwRSk9OBNqci5dBDELq2pgDT9g==
+X-Gm-Gg: ASbGncugQCkZmYCLWvR9nFftQohoFxiusUuh0yNbeeTs93XARiBIo8D/OmKI+M/Rt2U
+	iuHXyMcgT2sDEFPHk4AIgdwVs1otj3smd6ijUvsiWnRXjyFL4it69AzKDLtJrNZKqndtqEd2cqD
+	CS1JeRtfwgRhc1rLTJ3XN1Q8GZ7iJWKyeOSymhaA+ymv+iReiAsWzHnhDK+1D6J2yE9AHYc1xjL
+	Mo5ox+AryYIPpasTS9nKqHeX0+lKq5rNgJwR77qDSKG9rnkwgdj/MknfhBIM5n/3WMkn14PwFHK
+	Iinw1e1QcXlbbLsxJeHpMtwpU0dQkIbuT+RcyFpvbLMVmMgXFJ0sCVHDBpe0ic7KhVs+4Jz/+D9
+	5Hhbg8ETKvu9kn3vjZHIwwE0oXMgBsIs/AJs3MmOtQ5JKatkz
+X-Google-Smtp-Source: AGHT+IG5HWkPBJkcYTOTtTTzHHBhccp5vRewXV9/3Mdm7cRp0ryQCuWHktD1MJgAWt5jvQdvE42vlA==
+X-Received: by 2002:a05:6000:2002:b0:3b7:6e64:bed8 with SMTP id ffacd0b85a97d-3b77137d611mr12299096f8f.28.1753707086340;
+        Mon, 28 Jul 2025 05:51:26 -0700 (PDT)
+Return-Path: <guydany8@gmail.com>
+Received: from smtpclient.apple ([2a0d:e487:123f:6100:c8be:b9c6:19fb:7d19])
+        by smtp.gmail.com with ESMTPSA id ffacd0b85a97d-3b781d2fb95sm6666050f8f.7.2025.07.28.05.51.25
+        for <guykeny.ndayizeye8@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Mon, 28 Jul 2025 05:51:25 -0700 (PDT)
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+From: dany guy <guydany8@gmail.com>
+Mime-Version: 1.0 (1.0)
+Date: Mon, 28 Jul 2025 14:51:14 +0200
+Subject: Nono
+Message-Id: <424B73C0-E955-4594-B5E3-199A951C2FA8@gmail.com>
+To: Guy Keny Ndayizeye <guykeny.ndayizeye8@gmail.com>
+X-Mailer: iPhone Mail (20H360)
+X-Antivirus: Avast (VPS 250731-0, 31/7/2025), Inbound message
+X-Antivirus-Status: Clean
+
+
+Kekkdjejr
+Envoy=C3=A9 de mon iPhone=

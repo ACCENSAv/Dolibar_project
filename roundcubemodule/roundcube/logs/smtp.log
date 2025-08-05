@@ -1,0 +1,2054 @@
+[30-Jul-2025 12:19:35 +0000]: <tm9fmnvn> Connecting to ssl://sucralose.o2switch.net:465...
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 220-sucralose.o2switch.net ESMTP Exim 4.98.2 #2 Wed, 30 Jul 2025 14:19:36 +0200 
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 220-We do not authorize the use of this system to transport unsolicited, 
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 220 and/or bulk e-mail.
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-sucralose.o2switch.net Hello rtr.23.90.216.125.unyc.it [23.90.216.125]
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-SIZE 262144000
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-LIMITS MAILMAX=1000 RCPTMAX=50000
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-PIPECONNECT
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250-AUTH PLAIN LOGIN
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 250 HELP
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 12:19:37 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 12:19:38 +0000]: <tm9fmnvn> Recv: 535 Incorrect authentication data
+[30-Jul-2025 12:19:38 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 12:19:38 +0000]: <tm9fmnvn> Recv: 221 sucralose.o2switch.net closing connection
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b781d2fb95sm13292722f8f.7 - gsmtp
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b781d2fb95sm13292722f8f.7 - gsmtp
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b781d2fb95sm13292722f8f.7 - gsmtp
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b781d2fb95sm13292722f8f.7 - gsmtp
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 12:21:36 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: test dolibarr
+Message-ID: <0b2e488e77829c8802c346b48464a9b3@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_9894ae6086c297fcb579240368d29e85"
+
+--=_9894ae6086c297fcb579240368d29e85
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+ggfgg
+--=_9894ae6086c297fcb579240368d29e85
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=card.php
+Content-Disposition: attachment;
+ filename=card.php;
+ size=157728
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgIFJvZG9scGhlIFF1aWVkZXZpbGxlICAg
+IDxyb2RvbHBoZUBxdWllZGV2aWxsZS5vcmc+CiAqIENvcHlyaWdodCAoQykgMjAwMyAgICAgICBC
+cmlhbiBGcmF2YWwgICAgICAgICAgICA8YnJpYW5AZnJhdmFsLm9yZz4KICogQ29weXJpZ2h0IChD
+KSAyMDA0LTIwMTUgIExhdXJlbnQgRGVzdGFpbGxldXIgICAgIDxlbGR5QHVzZXJzLnNvdXJjZWZv
+cmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgIEVyaWMgU2VpZ25lICAgICAgICAg
+ICAgIDxlcmljLnNlaWduZUByeXhlby5jb20+CiAqIENvcHlyaWdodCAoQykgMjAwNS0yMDE3ICBS
+ZWdpcyBIb3Vzc2luICAgICAgICAgICA8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICogQ29w
+eXJpZ2h0IChDKSAyMDA4ICAgICAgIFBhdHJpY2sgUmFndWluICAgICAgICAgIDxwYXRyaWNrLnJh
+Z3VpbkBhdWd1cmlhLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDEwLTIwMjAgIEp1YW5qbyBNZW5l
+bnQgICAgICAgICAgIDxqbWVuZW50QDJieXRlLmVzPgogKiBDb3B5cmlnaHQgKEMpIDIwMTEtMjAy
+NCAgQWxleGFuZHJlIFNwYW5nYXJvICAgICAgPGFsZXhhbmRyZUBpbm92ZWEtY29uc2VpbC5jb20+
+CiAqIENvcHlyaWdodCAoQykgMjAxNSAgICAgICBKZWFuLUZyYW7Dp29pcyBGZXJyeSAgICAgPGpm
+ZWZlQGF0ZXJuYXRpay5mcj4KICogQ29weXJpZ2h0IChDKSAyMDE1ICAgICAgIE1hcmNvcyBHYXJj
+w61hICAgICAgICAgICA8bWFyY29zZ2RmQGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDE1
+ICAgICAgIFJhcGhhw6tsIERvdXJzZW5hdWQgICAgICA8cmRvdXJzZW5hdWRAZ3Bjc29sdXRpb25z
+LmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTggICAgICAgTmljb2xhcyBaQUJPVVJJICAgICAgICAg
+PGluZm9AaW5vdmVhLWNvbnNlaWwuY29tPgogKiBDb3B5cmlnaHQgKEMpIDIwMTggICAgICAgRmVy
+cmFuIE1hcmNldCAgICAgICAgICAgPGZtYXJjZXRAMmJ5dGUuZXMuY29tPgogKiBDb3B5cmlnaHQg
+KEMpIDIwMTgtMjAyNSAgRnLDqWTDqXJpYyBGcmFuY2UgICAgICAgICA8ZnJlZGVyaWMuZnJhbmNl
+QGZyZWUuZnI+CiAqIENvcHlyaWdodCAoQykgMjAyMi0yMDIzICBHZW9yZ2UgR2thbnRpbmFzICAg
+ICAgICA8aW5mb0BnZW93di5ldT4KICogQ29weXJpZ2h0IChDKSAyMDIzICAgICAgIE5pY2sgRnJh
+Z291bGlzCiAqIENvcHlyaWdodCAoQykgMjAyMyAgICAgICBBbGV4YW5kcmUgSmFubmlhdXggICAg
+ICA8YWxleGFuZHJlLmphbm5pYXV4QGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0LTIw
+MjUJTURXICAgICAgICAgICAgICAgICAgICAgPG1kZXdlZXJkQHVzZXJzLm5vcmVwbHkuZ2l0aHVi
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0ICAgICAgIENoYXJsZW5lIEJlbmtlICAgICAgICAg
+IDxjaGFybGVuZUBwYXRhcy1tb25rZXkuY29tPgogKgogKiBUaGlzIHByb2dyYW0gaXMgZnJlZSBz
+b2Z0d2FyZTsgeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogKiBpdCB1bmRl
+ciB0aGUgdGVybXMgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hl
+ZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uOyBlaXRoZXIgdmVyc2lvbiAzIG9m
+IHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgog
+KgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxs
+IGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhl
+IGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEg
+UEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5z
+ZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5
+IG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogKiBhbG9uZyB3aXRoIHRoaXMgcHJv
+Z3JhbS4gSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgov
+KioKICogIFxmaWxlICAgICAgIGh0ZG9jcy9zb2NpZXRlL2NhcmQucGhwCiAqICBcaW5ncm91cCAg
+ICBzb2NpZXRlCiAqICBcYnJpZWYgICAgICBUaGlyZCBwYXJ0eSBjYXJkIHBhZ2UKICovCgoKLy8g
+TG9hZCBEb2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5waHAnOwpyZXF1
+aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9jb21wYW55LmxpYi5waHAnOwpy
+ZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9pbWFnZXMubGliLnBocCc7
+CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvbGliL2ZpbGVzLmxpYi5waHAn
+OwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9mdW5jdGlvbnMubGli... [truncated 212449 bytes]
+[30-Jul-2025 12:21:36 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 12:21:38 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753878098 ffacd0b85a97d-3b781d2fb95sm13292722f8f.7 - gsmtp
+[30-Jul-2025 12:21:38 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 12:21:38 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b781d2fb95sm13292722f8f.7 - gsmtp
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b7816e3641sm13824654f8f.73 - gsmtp
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 12:31:57 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b7816e3641sm13824654f8f.73 - gsmtp
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b7816e3641sm13824654f8f.73 - gsmtp
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b7816e3641sm13824654f8f.73 - gsmtp
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 12:31:57 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: test dolibarr
+Message-ID: <1dd4079eda58ec47f6c85544dd84fd15@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_dff6f303bd7c608a4fc329a31f82177e"
+
+--=_dff6f303bd7c608a4fc329a31f82177e
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+gtr
+--=_dff6f303bd7c608a4fc329a31f82177e
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=index.php
+Content-Disposition: attachment;
+ filename=index.php;
+ size=22925
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDYgUm9kb2xwaGUgUXVpZWRldmlsbGUgPHJv
+ZG9scGhlQHF1aWVkZXZpbGxlLm9yZz4KICogQ29weXJpZ2h0IChDKSAyMDA0LTIwMTggTGF1cmVu
+dCBEZXN0YWlsbGV1ciAgPGVsZHlAdXNlcnMuc291cmNlZm9yZ2UubmV0PgogKiBDb3B5cmlnaHQg
+KEMpIDIwMDUtMjAxMiBSZWdpcyBIb3Vzc2luICAgICAgICA8cmVnaXMuaG91c3NpbkBpbm9kYm94
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDE0LTIwMjEgQ2hhcmxlbmUgQmVua2UJCTxjaGFybGVu
+ZS5yQGJlbmtlLmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTUgICAgICBKZWFuLUZyYW7Dp29pcyBG
+ZXJyeQk8amZlZmVAYXRlcm5hdGlrLmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTYgICAgICBGZXJy
+YW4gTWFyY2V0ICAgICAgICA8Zm1hcmNldEAyYnl0ZS5lcz4KICogQ29weXJpZ2h0IChDKSAyMDE5
+CSAgIE5pY29sYXMgWkFCT1VSSSAgICAgIDxpbmZvQGlub3ZlYS1jb25zZWlsLmNvbT4KICogQ29w
+eXJpZ2h0IChDKSAyMDI0ICAgICAgRnLDqWTDqXJpYyBGcmFuY2UgICAgICA8ZnJlZGVyaWMuZnJh
+bmNlQGZyZWUuZnI+CiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOyB5b3UgY2Fu
+IHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBvZiB0
+aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5CiAqIHRoZSBGcmVl
+IFNvZnR3YXJlIEZvdW5kYXRpb247IGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2UsIG9y
+CiAqIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJvZ3Jh
+bSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAogKiBi
+dXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJyYW50
+eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBVUlBP
+U0UuICBTZWUgdGhlCiAqIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRldGFp
+bHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBHZW5l
+cmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiBJZiBub3QsIHNl
+ZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCi8qKgogKglcZmlsZSAgICAg
+ICBodGRvY3Mvc29jaWV0ZS9pbmRleC5waHAKICogIFxpbmdyb3VwICAgIHNvY2lldGUKICogIFxi
+cmllZiAgICAgIEhvbWUgcGFnZSBmb3IgdGhpcmQgcGFydGllcyBhcmVhCiAqLwoKLy8gTG9hZCBE
+b2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5waHAnOwpyZXF1aXJlX29u
+Y2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9zb2NpZXRlL2NsYXNzL3NvY2lldGUuY2xhc3MucGhwJzsK
+cmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29udGFjdC9jbGFzcy9jb250YWN0LmNs
+YXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvY2xhc3MvaHRt
+bC5mb3Jtb3RoZXIuY2xhc3MucGhwJzsKCi8qKgogKiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBE
+b2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIgJGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNs
+YXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIKICovCgovLyBMb2FkIHRyYW5zbGF0aW9uIGZp
+bGVzIHJlcXVpcmVkIGJ5IHRoZSBwYWdlCiRsYW5ncy0+bG9hZCgiY29tcGFuaWVzIik7CgoKLy8g
+SW5pdGlhbGl6ZSBhIHRlY2huaWNhbCBvYmplY3QgdG8gbWFuYWdlIGhvb2tzLiBOb3RlIHRoYXQg
+Y29uZi0+aG9va3NfbW9kdWxlcyBjb250YWlucyBhcnJheQokaG9va21hbmFnZXIgPSBuZXcgSG9v
+a01hbmFnZXIoJGRiKTsKJGhvb2ttYW5hZ2VyLT5pbml0SG9va3MoYXJyYXkoJ3RoaXJkcGFydGll
+c2luZGV4JykpOwoKCiRzb2NpZCA9IEdFVFBPU1RJTlQoJ3NvY2lkJyk7CmlmICgkdXNlci0+c29j
+aWQpIHsKCSRzb2NpZCA9ICR1c2VyLT5zb2NpZDsKfQoKLy8gU2VjdXJpdHkgY2hlY2sKJHJlc3Vs
+dCA9IHJlc3RyaWN0ZWRBcmVhKCR1c2VyLCAnc29jaWV0ZXxjb250YWN0JywgMCwgJycsICcnLCAn
+JywgJycpOwoKJHRoaXJkcGFydHlfc3RhdGljID0gbmV3IFNvY2lldGUoJGRiKTsKJGNvbnRhY3Rf
+c3RhdGljID0gbmV3IENvbnRhY3QoJGRiKTsKCmlmICghaXNzZXQoJGZvcm0pIHx8ICFpc19vYmpl
+Y3QoJGZvcm0pKSB7CgkkZm9ybSA9IG5ldyBGb3JtKCRkYik7Cn0KCi8vIExvYWQgJHJlc3VsdGJv
+eGVzCiRyZXN1bHRib3hlcyA9IEZvcm1PdGhlcjo6Z2V0Qm94ZXNBcmVhKCR1c2VyLCAiMyIpOwoK
+aWYgKEdFVFBPU1QoJ2FkZGJveCcpKSB7CgkvLyBBZGQgYm94ICh3aGVuIHN1Ym1pdCBpcyBkb25l
+IGZyb20gYSBmb3JtIHdoZW4gYWpheCBkaXNhYmxlZCkKCXJlcXVpcmVfb25jZSBET0xfRE9DVU1F
+... [truncated 27982 bytes]
+[30-Jul-2025 12:31:58 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 12:31:59 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753878718 ffacd0b85a97d-3b7816e3641sm13824654f8f.73 - gsmtp
+[30-Jul-2025 12:31:59 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 12:31:59 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b7816e3641sm13824654f8f.73 - gsmtp
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4589536a72asm25874235e9.1 - gsmtp
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK 5b1f17b1804b1-4589536a72asm25874235e9.1 - gsmtp
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK 5b1f17b1804b1-4589536a72asm25874235e9.1 - gsmtp
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Recv: 354 Go ahead 5b1f17b1804b1-4589536a72asm25874235e9.1 - gsmtp
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 12:43:41 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: y
+Message-ID: <7802842568e83f4bb653b8fc30c20551@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_02200bbd6d4e143acc30d47c7c794ab5"
+
+--=_02200bbd6d4e143acc30d47c7c794ab5
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+hhh
+--=_02200bbd6d4e143acc30d47c7c794ab5
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=card.php
+Content-Disposition: attachment;
+ filename=card.php;
+ size=157728
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgIFJvZG9scGhlIFF1aWVkZXZpbGxlICAg
+IDxyb2RvbHBoZUBxdWllZGV2aWxsZS5vcmc+CiAqIENvcHlyaWdodCAoQykgMjAwMyAgICAgICBC
+cmlhbiBGcmF2YWwgICAgICAgICAgICA8YnJpYW5AZnJhdmFsLm9yZz4KICogQ29weXJpZ2h0IChD
+KSAyMDA0LTIwMTUgIExhdXJlbnQgRGVzdGFpbGxldXIgICAgIDxlbGR5QHVzZXJzLnNvdXJjZWZv
+cmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgIEVyaWMgU2VpZ25lICAgICAgICAg
+ICAgIDxlcmljLnNlaWduZUByeXhlby5jb20+CiAqIENvcHlyaWdodCAoQykgMjAwNS0yMDE3ICBS
+ZWdpcyBIb3Vzc2luICAgICAgICAgICA8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICogQ29w
+eXJpZ2h0IChDKSAyMDA4ICAgICAgIFBhdHJpY2sgUmFndWluICAgICAgICAgIDxwYXRyaWNrLnJh
+Z3VpbkBhdWd1cmlhLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDEwLTIwMjAgIEp1YW5qbyBNZW5l
+bnQgICAgICAgICAgIDxqbWVuZW50QDJieXRlLmVzPgogKiBDb3B5cmlnaHQgKEMpIDIwMTEtMjAy
+NCAgQWxleGFuZHJlIFNwYW5nYXJvICAgICAgPGFsZXhhbmRyZUBpbm92ZWEtY29uc2VpbC5jb20+
+CiAqIENvcHlyaWdodCAoQykgMjAxNSAgICAgICBKZWFuLUZyYW7Dp29pcyBGZXJyeSAgICAgPGpm
+ZWZlQGF0ZXJuYXRpay5mcj4KICogQ29weXJpZ2h0IChDKSAyMDE1ICAgICAgIE1hcmNvcyBHYXJj
+w61hICAgICAgICAgICA8bWFyY29zZ2RmQGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDE1
+ICAgICAgIFJhcGhhw6tsIERvdXJzZW5hdWQgICAgICA8cmRvdXJzZW5hdWRAZ3Bjc29sdXRpb25z
+LmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTggICAgICAgTmljb2xhcyBaQUJPVVJJICAgICAgICAg
+PGluZm9AaW5vdmVhLWNvbnNlaWwuY29tPgogKiBDb3B5cmlnaHQgKEMpIDIwMTggICAgICAgRmVy
+cmFuIE1hcmNldCAgICAgICAgICAgPGZtYXJjZXRAMmJ5dGUuZXMuY29tPgogKiBDb3B5cmlnaHQg
+KEMpIDIwMTgtMjAyNSAgRnLDqWTDqXJpYyBGcmFuY2UgICAgICAgICA8ZnJlZGVyaWMuZnJhbmNl
+QGZyZWUuZnI+CiAqIENvcHlyaWdodCAoQykgMjAyMi0yMDIzICBHZW9yZ2UgR2thbnRpbmFzICAg
+ICAgICA8aW5mb0BnZW93di5ldT4KICogQ29weXJpZ2h0IChDKSAyMDIzICAgICAgIE5pY2sgRnJh
+Z291bGlzCiAqIENvcHlyaWdodCAoQykgMjAyMyAgICAgICBBbGV4YW5kcmUgSmFubmlhdXggICAg
+ICA8YWxleGFuZHJlLmphbm5pYXV4QGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0LTIw
+MjUJTURXICAgICAgICAgICAgICAgICAgICAgPG1kZXdlZXJkQHVzZXJzLm5vcmVwbHkuZ2l0aHVi
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0ICAgICAgIENoYXJsZW5lIEJlbmtlICAgICAgICAg
+IDxjaGFybGVuZUBwYXRhcy1tb25rZXkuY29tPgogKgogKiBUaGlzIHByb2dyYW0gaXMgZnJlZSBz
+b2Z0d2FyZTsgeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogKiBpdCB1bmRl
+ciB0aGUgdGVybXMgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hl
+ZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uOyBlaXRoZXIgdmVyc2lvbiAzIG9m
+IHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgog
+KgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxs
+IGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhl
+IGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEg
+UEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5z
+ZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5
+IG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogKiBhbG9uZyB3aXRoIHRoaXMgcHJv
+Z3JhbS4gSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgov
+KioKICogIFxmaWxlICAgICAgIGh0ZG9jcy9zb2NpZXRlL2NhcmQucGhwCiAqICBcaW5ncm91cCAg
+ICBzb2NpZXRlCiAqICBcYnJpZWYgICAgICBUaGlyZCBwYXJ0eSBjYXJkIHBhZ2UKICovCgoKLy8g
+TG9hZCBEb2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5waHAnOwpyZXF1
+aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9jb21wYW55LmxpYi5waHAnOwpy
+ZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9pbWFnZXMubGliLnBocCc7
+CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvbGliL2ZpbGVzLmxpYi5waHAn
+OwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9mdW5jdGlvbnMubGli
+LnBocCc7CnJlc... [truncated 212435 bytes]
+[30-Jul-2025 12:43:41 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 12:43:43 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753879422 5b1f17b1804b1-4589536a72asm25874235e9.1 - gsmtp
+[30-Jul-2025 12:43:43 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 12:43:43 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-4589536a72asm25874235e9.1 - gsmtp
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-458953b3471sm25654085e9.30 - gsmtp
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK 5b1f17b1804b1-458953b3471sm25654085e9.30 - gsmtp
+[30-Jul-2025 12:51:48 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK 5b1f17b1804b1-458953b3471sm25654085e9.30 - gsmtp
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Recv: 354 Go ahead 5b1f17b1804b1-458953b3471sm25654085e9.30 - gsmtp
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 12:51:48 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: ffds
+Message-ID: <25752073a7f25970cf26f584ee291099@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_7dc9a2a19257008b42260dabb8faf4a2"
+
+--=_7dc9a2a19257008b42260dabb8faf4a2
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+vdqfbg
+--=_7dc9a2a19257008b42260dabb8faf4a2
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=agenda.php
+Content-Disposition: attachment;
+ filename=agenda.php;
+ size=9096
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgUm9kb2xwaGUgUXVpZWRldmlsbGUgPHJv
+ZG9scGhlQHF1aWVkZXZpbGxlLm9yZz4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgQnJpY2Ug
+RGF2b2xlYXUgICAgICAgPGJyaWNlLmRhdm9sZWF1QGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChD
+KSAyMDA1LTIwMTIgUmVnaXMgSG91c3NpbiAgICAgICAgPHJlZ2lzLmhvdXNzaW5AaW5vZGJveC5j
+b20+CiAqIENvcHlyaWdodCAoQykgMjAwNi0yMDE5IExhdXJlbnQgRGVzdGFpbGxldXIgIDxlbGR5
+QHVzZXJzLnNvdXJjZWZvcmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA3ICAgICAgUGF0cmlj
+ayBSYWd1aW4gIAkJPHBhdHJpY2sucmFndWluQGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAy
+MDEwICAgICAgSnVhbmpvIE1lbmVudCAgICAgICAgPGptZW5lbnRAMmJ5dGUuZXM+CiAqIENvcHly
+aWdodCAoQykgMjAxNSAgICAgIE1hcmNvcyBHYXJjw61hICAgICAgICA8bWFyY29zZ2RmQGdtYWls
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0ICAgICAgIEZyw6lkw6lyaWMgRnJhbmNlICAgICAg
+ICAgPGZyZWRlcmljLmZyYW5jZUBmcmVlLmZyPgogKgogKiBUaGlzIHByb2dyYW0gaXMgZnJlZSBz
+b2Z0d2FyZTsgeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogKiBpdCB1bmRl
+ciB0aGUgdGVybXMgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hl
+ZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uOyBlaXRoZXIgdmVyc2lvbiAzIG9m
+IHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgog
+KgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxs
+IGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhl
+IGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEg
+UEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5z
+ZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5
+IG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogKiBhbG9uZyB3aXRoIHRoaXMgcHJv
+Z3JhbS4gSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgov
+KioKICogIFxmaWxlICAgICAgIGh0ZG9jcy9zb2NpZXRlL2FnZW5kYS5waHAKICogIFxpbmdyb3Vw
+ICAgIHNvY2lldGUKICogIFxicmllZiAgICAgIFBhZ2Ugb2YgdGhpcmQgcGFydHkgZXZlbnRzCiAq
+LwoKLy8gTG9hZCBEb2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5waHAn
+OwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb250YWN0L2NsYXNzL2NvbnRhY3Qu
+Y2xhc3MucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29tcHRhL2ZhY3R1
+cmUvY2xhc3MvZmFjdHVyZS5jbGFzcy5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JP
+T1QuJy9jb3JlL2xpYi9mdW5jdGlvbnMyLmxpYi5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VN
+RU5UX1JPT1QuJy9jb3JlL2xpYi9jb21wYW55LmxpYi5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RP
+Q1VNRU5UX1JPT1QuJy9zb2NpZXRlL2NsYXNzL3NvY2lldGUuY2xhc3MucGhwJzsKCi8qKgogKiBA
+dmFyIENvbmYgJGNvbmYKICogQHZhciBEb2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIgJGhv
+b2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNsYXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIKICov
+CgovLyBMb2FkIHRyYW5zbGF0aW9uIGZpbGVzIHJlcXVpcmVkIGJ5IHRoZSBwYWdlCiRsYW5ncy0+
+bG9hZExhbmdzKGFycmF5KCdhZ2VuZGEnLCAnYmlsbHMnLCAnY29tcGFuaWVzJywgJ29yZGVycycs
+ICdwcm9wYWwnKSk7CgokY29udGV4dHBhZ2UgPSBHRVRQT1NUKCdjb250ZXh0cGFnZScsICdhWicp
+ID8gR0VUUE9TVCgnY29udGV4dHBhZ2UnLCAnYVonKSA6ICd0aGlyZHBhcnR5YWdlbmRhJzsKCmlm
+IChHRVRQT1NUKCdhY3Rpb25jb2RlJywgJ2FycmF5JykpIHsKCSRhY3Rpb25jb2RlID0gR0VUUE9T
+VCgnYWN0aW9uY29kZScsICdhcnJheScsIDMpOwoJaWYgKCFjb3VudCgkYWN0aW9uY29kZSkpIHsK
+CQkkYWN0aW9uY29kZSA9ICcwJzsKCX0KfSBlbHNlIHsKCSRhY3Rpb25jb2RlID0gR0VUUE9TVCgi
+YWN0aW9uY29kZSIsICJhbHBoYSIsIDMpID8gR0VUUE9TVCgiYWN0aW9uY29kZSIsICJhbHBoYSIs
+IDMpIDogKEdFVFBPU1QoImFjdGlvbmNvZGUiKSA9PSAnMCcgPyAnMCcgOiBnZXREb2xHbG9iYWxT
+dHJpbmcoJ0FHRU5EQV9ERUZBVUxUX0ZJTFRFUl9UWVBFX0ZPUl9PQkpFQ1QnKSk7Cn0KCiRzZWFy
+Y2hfcm93aWQgPSBHRVRQT1NUKCdzZWFyY2hfcm93aWQnKTsKJHNlYXJjaF9hZ2VuZGFfbGFiZWwg
+PSBHR... [truncated 9051 bytes]
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753879909 5b1f17b1804b1-458953b3471sm25654085e9.30 - gsmtp
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 12:51:49 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-458953b3471sm25654085e9.30 - gsmtp
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b778f04abcsm15494566f8f.48 - gsmtp
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b778f04abcsm15494566f8f.48 - gsmtp
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b778f04abcsm15494566f8f.48 - gsmtp
+[30-Jul-2025 12:59:48 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 12:59:49 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b778f04abcsm15494566f8f.48 - gsmtp
+[30-Jul-2025 12:59:49 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 12:59:48 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: badude
+Message-ID: <9af2084ba3df179de2ae271d28fffc16@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_0d3aada4b8f84237defff21405fb6804"
+
+--=_0d3aada4b8f84237defff21405fb6804
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+sqfnds
+--=_0d3aada4b8f84237defff21405fb6804
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=messaging.php
+Content-Disposition: attachment;
+ filename=messaging.php;
+ size=9038
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgUm9kb2xwaGUgUXVpZWRldmlsbGUgPHJv
+ZG9scGhlQHF1aWVkZXZpbGxlLm9yZz4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgQnJpY2Ug
+RGF2b2xlYXUgICAgICAgPGJyaWNlLmRhdm9sZWF1QGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChD
+KSAyMDA1LTIwMTIgUmVnaXMgSG91c3NpbiAgICAgICAgPHJlZ2lzLmhvdXNzaW5AaW5vZGJveC5j
+b20+CiAqIENvcHlyaWdodCAoQykgMjAwNi0yMDE5IExhdXJlbnQgRGVzdGFpbGxldXIgIDxlbGR5
+QHVzZXJzLnNvdXJjZWZvcmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA3ICAgICAgUGF0cmlj
+ayBSYWd1aW4gIAkJPHBhdHJpY2sucmFndWluQGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAy
+MDEwICAgICAgSnVhbmpvIE1lbmVudCAgICAgICAgPGptZW5lbnRAMmJ5dGUuZXM+CiAqIENvcHly
+aWdodCAoQykgMjAxNSAgICAgIE1hcmNvcyBHYXJjw61hICAgICAgICA8bWFyY29zZ2RmQGdtYWls
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0ICAgICAgIEZyw6lkw6lyaWMgRnJhbmNlICAgICAg
+ICAgPGZyZWRlcmljLmZyYW5jZUBmcmVlLmZyPgogKgogKiBUaGlzIHByb2dyYW0gaXMgZnJlZSBz
+b2Z0d2FyZTsgeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogKiBpdCB1bmRl
+ciB0aGUgdGVybXMgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hl
+ZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uOyBlaXRoZXIgdmVyc2lvbiAzIG9m
+IHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgog
+KgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxs
+IGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhl
+IGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEg
+UEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5z
+ZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5
+IG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogKiBhbG9uZyB3aXRoIHRoaXMgcHJv
+Z3JhbS4gSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgov
+KioKICogIFxmaWxlICAgICAgIGh0ZG9jcy9zb2NpZXRlL21lc3NhZ2luZy5waHAKICogIFxpbmdy
+b3VwICAgIHNvY2lldGUKICogIFxicmllZiAgICAgIFBhZ2Ugb2YgdGhpcmQgcGFydHkgZXZlbnRz
+CiAqLwoKLy8gTG9hZCBEb2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5w
+aHAnOwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb250YWN0L2NsYXNzL2NvbnRh
+Y3QuY2xhc3MucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29tcHRhL2Zh
+Y3R1cmUvY2xhc3MvZmFjdHVyZS5jbGFzcy5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5U
+X1JPT1QuJy9jb3JlL2xpYi9mdW5jdGlvbnMyLmxpYi5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RP
+Q1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9jb21wYW55LmxpYi5waHAnOwpyZXF1aXJlX29uY2UgRE9M
+X0RPQ1VNRU5UX1JPT1QuJy9zb2NpZXRlL2NsYXNzL3NvY2lldGUuY2xhc3MucGhwJzsKCi8qKgog
+KiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBEb2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIg
+JGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNsYXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIK
+ICovCgovLyBMb2FkIHRyYW5zbGF0aW9uIGZpbGVzIHJlcXVpcmVkIGJ5IHRoZSBwYWdlCiRsYW5n
+cy0+bG9hZExhbmdzKGFycmF5KCdhZ2VuZGEnLCAnYmlsbHMnLCAnY29tcGFuaWVzJywgJ29yZGVy
+cycsICdwcm9wYWwnKSk7CgokY29udGV4dHBhZ2UgPSBHRVRQT1NUKCdjb250ZXh0cGFnZScsICdh
+WicpID8gR0VUUE9TVCgnY29udGV4dHBhZ2UnLCAnYVonKSA6ICd0aGlyZHBhcnR5YWdlbmRhJzsK
+CmlmIChHRVRQT1NUKCdhY3Rpb25jb2RlJywgJ2FycmF5JykpIHsKCSRhY3Rpb25jb2RlID0gR0VU
+UE9TVCgnYWN0aW9uY29kZScsICdhcnJheScsIDMpOwoJaWYgKCFjb3VudCgkYWN0aW9uY29kZSkp
+IHsKCQkkYWN0aW9uY29kZSA9ICcwJzsKCX0KfSBlbHNlIHsKCSRhY3Rpb25jb2RlID0gR0VUUE9T
+VCgiYWN0aW9uY29kZSIsICJhbHBoYSIsIDMpID8gR0VUUE9TVCgiYWN0aW9uY29kZSIsICJhbHBo
+YSIsIDMpIDogKEdFVFBPU1QoImFjdGlvbmNvZGUiKSA9PSAnMCcgPyAnMCcgOiBnZXREb2xHbG9i
+YWxTdHJpbmcoJ0FHRU5EQV9ERUZBVUxUX0ZJTFRFUl9UWVBFX0ZPUl9PQkpFQ1QnKSk7Cn0KCiRz
+ZWFyY2hfcm93aWQgPSBHRVRQT1NUKCdzZWFyY2hfcm93aWQnKTsKJHNlYXJjaF9hZ2VuZGFfbGF... [truncated 8981 bytes]
+[30-Jul-2025 12:59:49 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 12:59:49 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753880389 ffacd0b85a97d-3b778f04abcsm15494566f8f.48 - gsmtp
+[30-Jul-2025 12:59:49 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 12:59:49 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b778f04abcsm15494566f8f.48 - gsmtp
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b78ba0b8e1sm7801158f8f.40 - gsmtp
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b78ba0b8e1sm7801158f8f.40 - gsmtp
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b78ba0b8e1sm7801158f8f.40 - gsmtp
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b78ba0b8e1sm7801158f8f.40 - gsmtp
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:04:30 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: df
+Message-ID: <099d34b7f6dd0f5ed8291af4f74b719d@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_f205fc6a7f72cbf7e389f74ce91a61a5"
+
+--=_f205fc6a7f72cbf7e389f74ce91a61a5
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+fbbf
+--=_f205fc6a7f72cbf7e389f74ce91a61a5
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=vcard.php
+Content-Disposition: attachment;
+ filename=vcard.php;
+ size=3583
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDA0CQlSb2RvbHBoZSBRdWllZGV2aWxsZQk8cm9kb2xw
+aGVAcXVpZWRldmlsbGUub3JnPgogKiBDb3B5cmlnaHQgKEMpIDIwMDQtMjAxMAlMYXVyZW50IERl
+c3RhaWxsZXVyCQk8ZWxkeUB1c2Vycy5zb3VyY2Vmb3JnZS5uZXQ+CiAqIENvcHlyaWdodCAoQykg
+MjAwNS0yMDEyCVJlZ2lzIEhvdXNzaW4JCQk8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICog
+Q29weXJpZ2h0IChDKSAyMDIwCQlUb2JpYXMgU2VrYW4JCQk8dG9iaWFzLnNla2FuQHN0YXJ0bWFp
+bC5jb20+CiAqIENvcHlyaWdodCAoQykgMjAyNAkJTURXCQkJCQkJPG1kZXdlZXJkQHVzZXJzLm5v
+cmVwbHkuZ2l0aHViLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0CQlGcsOpZMOpcmljIEZyYW5j
+ZQkJCTxmcmVkZXJpYy5mcmFuY2VAZnJlZS5mcj4KICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUg
+c29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5k
+ZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBwdWJsaXNo
+ZWQgYnkKICogdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNpb24gMyBv
+ZiB0aGUgTGljZW5zZSwgb3IKICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4K
+ICoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2ls
+bCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRo
+ZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBB
+IFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGljIExpY2Vu
+c2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29w
+eSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHBy
+b2dyYW0uIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoK
+LyoqCiAqCSAgICBcZmlsZSAgICAgICBodGRvY3Mvc29jaWV0ZS92Y2FyZC5waHAKICogICAgICBc
+aW5ncm91cCAgICBzb2NpZXRlCiAqCQlcYnJpZWYgICAgICBUaGlyZCBwYXJ0eSB2Y2FyZCBkb3du
+bG9hZAogKi8KCi8vIExvYWQgRG9saWJhcnIgZW52aXJvbm1lbnQKcmVxdWlyZSAnLi4vbWFpbi5p
+bmMucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvc29jaWV0ZS9jbGFzcy9z
+b2NpZXRlLmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUv
+Y2xhc3MvdmNhcmQuY2xhc3MucGhwJzsKCi8qKgogKiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBE
+b2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIgJGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNs
+YXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIKICovCgokY29tcGFueSA9IG5ldyBTb2NpZXRl
+KCRkYik7CgoKJHNvY2lkID0gR0VUUE9TVElOVCgnaWQnKTsKCi8vIFNlY3VyaXR5IGNoZWNrCiRy
+ZXN1bHQgPSByZXN0cmljdGVkQXJlYSgkdXNlciwgJ3NvY2lldGUnLCAkc29jaWQsICcmc29jaWV0
+ZScpOwoKCiRyZXN1bHQgPSAkY29tcGFueS0+ZmV0Y2goJHNvY2lkKTsKaWYgKCRyZXN1bHQgPD0g
+MCkgewoJZG9sX3ByaW50X2Vycm9yKCRkYiwgJGNvbXBhbnktPmVycm9yKTsKCWV4aXQ7Cn0KCgov
+LyBDb21wdXRlIFZDYXJkCiR2ID0gbmV3IHZDYXJkKCk7CiR2LT5zZXRQcm9kSWQoJ0RvbGliYXJy
+ICcuRE9MX1ZFUlNJT04pOwoKJHYtPnNldFVpZCgnRE9MSUJBUlItVEhJUkRQQVJUWUlELScuJGNv
+bXBhbnktPmlkKTsKCgovLyBEYXRhIGZyb20gY29tcGFueQppZiAoIWVtcHR5KCRjb21wYW55LT51
+cmwpKSB7Cgkkdi0+c2V0VVJMKCRjb21wYW55LT51cmwsICJUWVBFPVdPUksiKTsKfQppZiAoIWVt
+cHR5KCRjb21wYW55LT5waG9uZSkpIHsKCSR2LT5zZXRQaG9uZU51bWJlcigkY29tcGFueS0+cGhv
+bmUsICJUWVBFPVdPUks7Vk9JQ0UiKTsKfQppZiAoIWVtcHR5KCRjb21wYW55LT5waG9uZV9tb2Jp
+bGUpKSB7Cgkkdi0+c2V0UGhvbmVOdW1iZXIoJGNvbXBhbnktPnBob25lX21vYmlsZSwgIlRZUEU9
+Q0VMTDtWT0lDRSIpOwp9CmlmICghZW1wdHkoJGNvbXBhbnktPmZheCkpIHsKCSR2LT5zZXRQaG9u
+ZU51bWJlcigkY29tcGFueS0+ZmF4LCAiVFlQRT1XT1JLO0ZBWCIpOwp9CiR2LT5zZXRBZGRyZXNz
+KCIiLCAiIiwgJGNvbXBhbnktPmFkZHJlc3MsICRjb21wYW55LT50b3duLCAkY29tcGFueS0+c3Rh
+dGUsICRjb21wYW55LT56aXAsICRjb21wYW55LT5jb3VudHJ5LCAiVFlQRT1XT1JLO1BPU1RBTCIp
+OwppZiAoIWVtcHR5KHRyaW0oJGNvbXBhbnktPmVtYWlsKSkpIHsKCSR2LT5zZXRFbWFpbCgkY29t
+cGFueS0+ZW1haWwpOwp9CgovLyBJZiB0aGUgY29tcGFueSBpcyBub3QgYSBwcml2YXRlIHBlcnNv
+bgppZiAoJGN... [truncated 1503 bytes]
+[30-Jul-2025 13:04:31 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:04:32 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753880672 ffacd0b85a97d-3b78ba0b8e1sm7801158f8f.40 - gsmtp
+[30-Jul-2025 13:04:32 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:04:32 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b78ba0b8e1sm7801158f8f.40 - gsmtp
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4589536a664sm27222435e9.5 - gsmtp
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK 5b1f17b1804b1-4589536a664sm27222435e9.5 - gsmtp
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK 5b1f17b1804b1-4589536a664sm27222435e9.5 - gsmtp
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Recv: 354 Go ahead 5b1f17b1804b1-4589536a664sm27222435e9.5 - gsmtp
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:16:52 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: FFTTYFTF
+Message-ID: <628a0677bf7717af021c3816e405c1cf@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_b9319105e75e6713c6230003d9062d3b"
+
+--=_b9319105e75e6713c6230003d9062d3b
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+SSSESESESESESE
+--=_b9319105e75e6713c6230003d9062d3b
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=vcard.php
+Content-Disposition: attachment;
+ filename=vcard.php;
+ size=3583
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDA0CQlSb2RvbHBoZSBRdWllZGV2aWxsZQk8cm9kb2xw
+aGVAcXVpZWRldmlsbGUub3JnPgogKiBDb3B5cmlnaHQgKEMpIDIwMDQtMjAxMAlMYXVyZW50IERl
+c3RhaWxsZXVyCQk8ZWxkeUB1c2Vycy5zb3VyY2Vmb3JnZS5uZXQ+CiAqIENvcHlyaWdodCAoQykg
+MjAwNS0yMDEyCVJlZ2lzIEhvdXNzaW4JCQk8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICog
+Q29weXJpZ2h0IChDKSAyMDIwCQlUb2JpYXMgU2VrYW4JCQk8dG9iaWFzLnNla2FuQHN0YXJ0bWFp
+bC5jb20+CiAqIENvcHlyaWdodCAoQykgMjAyNAkJTURXCQkJCQkJPG1kZXdlZXJkQHVzZXJzLm5v
+cmVwbHkuZ2l0aHViLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0CQlGcsOpZMOpcmljIEZyYW5j
+ZQkJCTxmcmVkZXJpYy5mcmFuY2VAZnJlZS5mcj4KICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUg
+c29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5k
+ZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBwdWJsaXNo
+ZWQgYnkKICogdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNpb24gMyBv
+ZiB0aGUgTGljZW5zZSwgb3IKICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4K
+ICoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2ls
+bCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRo
+ZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBB
+IFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGljIExpY2Vu
+c2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29w
+eSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHBy
+b2dyYW0uIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoK
+LyoqCiAqCSAgICBcZmlsZSAgICAgICBodGRvY3Mvc29jaWV0ZS92Y2FyZC5waHAKICogICAgICBc
+aW5ncm91cCAgICBzb2NpZXRlCiAqCQlcYnJpZWYgICAgICBUaGlyZCBwYXJ0eSB2Y2FyZCBkb3du
+bG9hZAogKi8KCi8vIExvYWQgRG9saWJhcnIgZW52aXJvbm1lbnQKcmVxdWlyZSAnLi4vbWFpbi5p
+bmMucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvc29jaWV0ZS9jbGFzcy9z
+b2NpZXRlLmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUv
+Y2xhc3MvdmNhcmQuY2xhc3MucGhwJzsKCi8qKgogKiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBE
+b2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIgJGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNs
+YXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIKICovCgokY29tcGFueSA9IG5ldyBTb2NpZXRl
+KCRkYik7CgoKJHNvY2lkID0gR0VUUE9TVElOVCgnaWQnKTsKCi8vIFNlY3VyaXR5IGNoZWNrCiRy
+ZXN1bHQgPSByZXN0cmljdGVkQXJlYSgkdXNlciwgJ3NvY2lldGUnLCAkc29jaWQsICcmc29jaWV0
+ZScpOwoKCiRyZXN1bHQgPSAkY29tcGFueS0+ZmV0Y2goJHNvY2lkKTsKaWYgKCRyZXN1bHQgPD0g
+MCkgewoJZG9sX3ByaW50X2Vycm9yKCRkYiwgJGNvbXBhbnktPmVycm9yKTsKCWV4aXQ7Cn0KCgov
+LyBDb21wdXRlIFZDYXJkCiR2ID0gbmV3IHZDYXJkKCk7CiR2LT5zZXRQcm9kSWQoJ0RvbGliYXJy
+ICcuRE9MX1ZFUlNJT04pOwoKJHYtPnNldFVpZCgnRE9MSUJBUlItVEhJUkRQQVJUWUlELScuJGNv
+bXBhbnktPmlkKTsKCgovLyBEYXRhIGZyb20gY29tcGFueQppZiAoIWVtcHR5KCRjb21wYW55LT51
+cmwpKSB7Cgkkdi0+c2V0VVJMKCRjb21wYW55LT51cmwsICJUWVBFPVdPUksiKTsKfQppZiAoIWVt
+cHR5KCRjb21wYW55LT5waG9uZSkpIHsKCSR2LT5zZXRQaG9uZU51bWJlcigkY29tcGFueS0+cGhv
+bmUsICJUWVBFPVdPUks7Vk9JQ0UiKTsKfQppZiAoIWVtcHR5KCRjb21wYW55LT5waG9uZV9tb2Jp
+bGUpKSB7Cgkkdi0+c2V0UGhvbmVOdW1iZXIoJGNvbXBhbnktPnBob25lX21vYmlsZSwgIlRZUEU9
+Q0VMTDtWT0lDRSIpOwp9CmlmICghZW1wdHkoJGNvbXBhbnktPmZheCkpIHsKCSR2LT5zZXRQaG9u
+ZU51bWJlcigkY29tcGFueS0+ZmF4LCAiVFlQRT1XT1JLO0ZBWCIpOwp9CiR2LT5zZXRBZGRyZXNz
+KCIiLCAiIiwgJGNvbXBhbnktPmFkZHJlc3MsICRjb21wYW55LT50b3duLCAkY29tcGFueS0+c3Rh
+dGUsICRjb21wYW55LT56aXAsICRjb21wYW55LT5jb3VudHJ5LCAiVFlQRT1XT1JLO1BPU1RBTCIp
+OwppZiAoIWVtcHR5KHRyaW0oJGNvbXBhbnktPmVtYWlsKSkpIHsKCSR2LT5zZXRFbWFpbCgkY29t
+cGFueS0+ZW1haWwpOwp9CgovLyBJZiB0aGUgY29tcGFueSBpcyBub3QgYSBwcml2YXRlIHBlc... [truncated 1519 bytes]
+[30-Jul-2025 13:16:52 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:16:53 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753881413 5b1f17b1804b1-4589536a664sm27222435e9.5 - gsmtp
+[30-Jul-2025 13:16:53 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:16:53 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-4589536a664sm27222435e9.5 - gsmtp
+[30-Jul-2025 13:23:28 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-458953eb7acsm26172645e9.28 - gsmtp
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK 5b1f17b1804b1-458953eb7acsm26172645e9.28 - gsmtp
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK 5b1f17b1804b1-458953eb7acsm26172645e9.28 - gsmtp
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Recv: 354 Go ahead 5b1f17b1804b1-458953eb7acsm26172645e9.28 - gsmtp
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:23:28 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: test dolibarr
+Message-ID: <d7609f38825bc88f0ac8286fe28db666@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_2673fd5e32594de76e21dc31144d4360"
+
+--=_2673fd5e32594de76e21dc31144d4360
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+jyj
+--=_2673fd5e32594de76e21dc31144d4360
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=societecontact.php
+Content-Disposition: attachment;
+ filename=societecontact.php;
+ size=11829
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAJUGF0cmljayBSb3VpbGxvbiAgICA8cGF0
+cmlja0Byb3VpbGxvbi5uZXQ+CiAqIENvcHlyaWdodCAoQykgMjAwNS0yMDExCUxhdXJlbnQgRGVz
+dGFpbGxldXIgPGVsZHlAdXNlcnMuc291cmNlZm9yZ2UubmV0PgogKiBDb3B5cmlnaHQgKEMpIDIw
+MDUtMjAxMglSZWdpcyBIb3Vzc2luICAgICAgIDxyZWdpcy5ob3Vzc2luQGlub2Rib3guY29tPgog
+KiBDb3B5cmlnaHQgKEMpIDIwMTEtMjAxNQlQaGlsaXBwZSBHcmFuZCAgICAgIDxwaGlsaXBwZS5n
+cmFuZEBhdG9vLW5ldC5jb20+CiAqIENvcHlyaWdodCAoQykgMjAxNCAgICAgICBDaGFybGVzLUZy
+IEJlbmtlCTxjaGFybGVzLmZyQGJlbmtlLmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTUgICAgICAg
+TWFyY29zIEdhcmPDrWEgICAgICAgPG1hcmNvc2dkZkBnbWFpbC5jb20+CiAqIENvcHlyaWdodCAo
+QykgMjAyNC0yMDI1ICBGcsOpZMOpcmljIEZyYW5jZSAgICAgICAgIDxmcmVkZXJpYy5mcmFuY2VA
+ZnJlZS5mcj4KICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUgc29mdHdhcmU7IHlvdSBjYW4gcmVk
+aXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBH
+TlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBwdWJsaXNoZWQgYnkKICogdGhlIEZyZWUgU29m
+dHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNpb24gMyBvZiB0aGUgTGljZW5zZSwgb3IKICog
+KGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4KICoKICogVGhpcyBwcm9ncmFtIGlz
+IGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBX
+SVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9m
+CiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4g
+IFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4K
+ICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29weSBvZiB0aGUgR05VIEdlbmVyYWwg
+UHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHByb2dyYW0uIElmIG5vdCwgc2VlIDxo
+dHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoKLyoqCiAqICAgICBcZmlsZSAgICAg
+ICAJaHRkb2NzL3NvY2lldGUvc29jaWV0ZWNvbnRhY3QucGhwCiAqICAgICBcaW5ncm91cCAgICAJ
+c29jaWV0ZQogKiAgICAgXGJyaWVmICAgICAgCVRhYiB0byBtYW5hZ2UgZGlmZmVyZW50bHkgY29u
+dGFjdC4KICogICAgIAkJCQlVc2VkIHdoZW4gdGhlIHVuc3RhYmxlIG9wdGlvbiBNQUlOX1NVUFBP
+UlRfU0hBUkVEX0NPTlRBQ1RfQkVUV0VFTl9USElSRFBBUlRJRVMgaXMgb24uCiAqLwoKCi8vIExv
+YWQgRG9saWJhcnIgZW52aXJvbm1lbnQKcmVxdWlyZSAnLi4vbWFpbi5pbmMucGhwJzsKcmVxdWly
+ZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29udGFjdC9jbGFzcy9jb250YWN0LmNsYXNzLnBo
+cCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvbGliL2NvbXBhbnkubGli
+LnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvY2xhc3MvaHRtbC5m
+b3Jtb3RoZXIuY2xhc3MucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29y
+ZS9jbGFzcy9odG1sLmZvcm1jb21wYW55LmNsYXNzLnBocCc7CgovKioKICogQHZhciBDb25mICRj
+b25mCiAqIEB2YXIgRG9saURCICRkYgogKiBAdmFyIEhvb2tNYW5hZ2VyICRob29rbWFuYWdlcgog
+KiBAdmFyIFRyYW5zbGF0ZSAkbGFuZ3MKICogQHZhciBVc2VyICR1c2VyCiAqLwoKLy8gTG9hZCB0
+cmFuc2xhdGlvbiBmaWxlcyByZXF1aXJlZCBieSB0aGUgcGFnZQokbGFuZ3MtPmxvYWRMYW5ncyhh
+cnJheSgnY29tcGFuaWVzJywgJ29yZGVycycpKTsKCi8vIEdldCBwYXJhbWV0ZXJzCiRpZCA9IEdF
+VFBPU1RJTlQoJ2lkJykgPyBHRVRQT1NUSU5UKCdpZCcpIDogR0VUUE9TVElOVCgnc29jaWQnKTsK
+JHJlZiA9IEdFVFBPU1QoJ3JlZicsICdhbHBoYScpOwokYWN0aW9uID0gR0VUUE9TVCgnYWN0aW9u
+JywgJ2FaMDknKTsKJG1hc3NhY3Rpb24gPSBHRVRQT1NUKCdtYXNzYWN0aW9uJywgJ2FscGhhJyk7
+CgokbGltaXQgPSBHRVRQT1NUSU5UKCdsaW1pdCcpID8gR0VUUE9TVElOVCgnbGltaXQnKSA6ICRj
+b25mLT5saXN0ZV9saW1pdDsKJHNvcnRmaWVsZCA9IEdFVFBPU1QoJ3NvcnRmaWVsZCcsICdhWjA5
+Y29tbWEnKTsKJHNvcnRvcmRlciA9IEdFVFBPU1QoJ3NvcnRvcmRlcicsICdhWjA5Y29tbWEnKTsK
+JHBhZ2UgPSBHRVRQT1NUSVNTRVQoJ3BhZ2VwbHVzb25lJykgPyAoR0VUUE9TVElOVCgncGFnZXBs
+dXNvbmUnKSAtIDEpIDogR0VUUE9TVElOVCgicGFnZSIpOwppZiAoISRzb3J0b3JkZXIpIHsKCSRz
+b3J0b3JkZXIgPSAiQVNDIjsKfQppZiAoISRzb3J0ZmllbGQpIHsKCSRzb3J0... [truncated 12814 bytes]
+[30-Jul-2025 13:23:29 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:23:30 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753881810 5b1f17b1804b1-458953eb7acsm26172645e9.28 - gsmtp
+[30-Jul-2025 13:23:30 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:23:30 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-458953eb7acsm26172645e9.28 - gsmtp
+[30-Jul-2025 13:26:31 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b778f0c48bsm15433465f8f.61 - gsmtp
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b778f0c48bsm15433465f8f.61 - gsmtp
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b778f0c48bsm15433465f8f.61 - gsmtp
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b778f0c48bsm15433465f8f.61 - gsmtp
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:26:31 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: dh
+Message-ID: <34f2d530cb2220f78d8c73bee6cb9995@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_4733c12636bbe0b92a4ea939857a6c96"
+
+--=_4733c12636bbe0b92a4ea939857a6c96
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+grre
+--=_4733c12636bbe0b92a4ea939857a6c96
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=note.php
+Content-Disposition: attachment;
+ filename=note.php;
+ size=5347
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDUgUm9kb2xwaGUgUXVpZWRldmlsbGUgPHJv
+ZG9scGhlQHF1aWVkZXZpbGxlLm9yZz4KICogQ29weXJpZ2h0IChDKSAyMDA0LTIwMTEgTGF1cmVu
+dCBEZXN0YWlsbGV1ciAgPGVsZHlAdXNlcnMuc291cmNlZm9yZ2UubmV0PgogKiBDb3B5cmlnaHQg
+KEMpIDIwMDUtMjAxMiBSZWdpcyBIb3Vzc2luICAgICAgICA8cmVnaXMuaG91c3NpbkBpbm9kYm94
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDEwICAgICAgSnVhbmpvIE1lbmVudCAgICAgICAgPGpt
+ZW5lbnRAMmJ5dGUuZXM+CiAqIENvcHlyaWdodCAoQykgMjAxMyAgICAgIEZsb3JpYW4gSGVucnkJ
+ICAJPGZsb3JpYW4uaGVucnlAb3Blbi1jb25jZXB0LnBybz4KICogQ29weXJpZ2h0IChDKSAyMDE1
+ICAgICAgTWFyY29zIEdhcmPDrWEgICAgICAgIDxtYXJjb3NnZGZAZ21haWwuY29tPgogKiBDb3B5
+cmlnaHQgKEMpIDIwMjQgICAgICAgRnLDqWTDqXJpYyBGcmFuY2UgICAgICAgICA8ZnJlZGVyaWMu
+ZnJhbmNlQGZyZWUuZnI+CiAqCiAqIFRoaXMgcHJvZ3JhbSBpcyBmcmVlIHNvZnR3YXJlOyB5b3Ug
+Y2FuIHJlZGlzdHJpYnV0ZSBpdCBhbmQvb3IgbW9kaWZ5CiAqIGl0IHVuZGVyIHRoZSB0ZXJtcyBv
+ZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UgYXMgcHVibGlzaGVkIGJ5CiAqIHRoZSBG
+cmVlIFNvZnR3YXJlIEZvdW5kYXRpb247IGVpdGhlciB2ZXJzaW9uIDMgb2YgdGhlIExpY2Vuc2Us
+IG9yCiAqIChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCiAqCiAqIFRoaXMgcHJv
+Z3JhbSBpcyBkaXN0cmlidXRlZCBpbiB0aGUgaG9wZSB0aGF0IGl0IHdpbGwgYmUgdXNlZnVsLAog
+KiBidXQgV0lUSE9VVCBBTlkgV0FSUkFOVFk7IHdpdGhvdXQgZXZlbiB0aGUgaW1wbGllZCB3YXJy
+YW50eSBvZgogKiBNRVJDSEFOVEFCSUxJVFkgb3IgRklUTkVTUyBGT1IgQSBQQVJUSUNVTEFSIFBV
+UlBPU0UuICBTZWUgdGhlCiAqIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGZvciBtb3JlIGRl
+dGFpbHMuCiAqCiAqIFlvdSBzaG91bGQgaGF2ZSByZWNlaXZlZCBhIGNvcHkgb2YgdGhlIEdOVSBH
+ZW5lcmFsIFB1YmxpYyBMaWNlbnNlCiAqIGFsb25nIHdpdGggdGhpcyBwcm9ncmFtLiBJZiBub3Qs
+IHNlZSA8aHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy8+LgogKi8KCi8qKgogKiAgIFxmaWxl
+ICAgICAgIGh0ZG9jcy9zb2NpZXRlL25vdGUucGhwCiAqICAgXGJyaWVmICAgICAgVGFiIGZvciBu
+b3RlcyBvbiB0aGlyZCBwYXJ0eQogKiAgIFxpbmdyb3VwICAgIHNvY2lldGUKICovCgoKLy8gTG9h
+ZCBEb2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5waHAnOwpyZXF1aXJl
+X29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9jb21wYW55LmxpYi5waHAnOwoKLyoq
+CiAqIEB2YXIgQ29uZiAkY29uZgogKiBAdmFyIERvbGlEQiAkZGIKICogQHZhciBIb29rTWFuYWdl
+ciAkaG9va21hbmFnZXIKICogQHZhciBUcmFuc2xhdGUgJGxhbmdzCiAqIEB2YXIgVXNlciAkdXNl
+cgogKi8KCi8vIExvYWQgdHJhbnNsYXRpb24gZmlsZXMgcmVxdWlyZWQgYnkgdGhlIHBhZ2UKJGxh
+bmdzLT5sb2FkKCJjb21wYW5pZXMiKTsKCgovLyBHZXQgcGFyYW1ldGVycwokaWQgPSBHRVRQT1NU
+KCdpZCcpID8gR0VUUE9TVElOVCgnaWQnKSA6IEdFVFBPU1RJTlQoJ3NvY2lkJyk7CiRhY3Rpb24g
+PSBHRVRQT1NUKCdhY3Rpb24nLCAnYVowOScpOwoKCi8vIEluaXRpYWxpemUgb2JqZWN0cwokb2Jq
+ZWN0ID0gbmV3IFNvY2lldGUoJGRiKTsKaWYgKCRpZCA+IDApIHsKCSRvYmplY3QtPmZldGNoKCRp
+ZCk7Cn0KCi8vIFBlcm1pc3Npb25zCiRwZXJtaXNzaW9ubm90ZSA9ICR1c2VyLT5oYXNSaWdodCgn
+c29jaWV0ZScsICdjcmVlcicpOyAvLyBVc2VkIGJ5IHRoZSBpbmNsdWRlIG9mIGFjdGlvbnNfc2V0
+bm90ZXMuaW5jLnBocAoKLy8gSW5pdGlhbGl6ZSBhIHRlY2huaWNhbCBvYmplY3QgdG8gbWFuYWdl
+IGhvb2tzIG9mIHBhZ2UuIE5vdGUgdGhhdCBjb25mLT5ob29rc19tb2R1bGVzIGNvbnRhaW5zIGFu
+IGFycmF5IG9mIGhvb2sgY29udGV4dAokaG9va21hbmFnZXItPmluaXRIb29rcyhhcnJheSgndGhp
+cmRwYXJ0eW5vdGUnLCAnZ2xvYmFsY2FyZCcpKTsKCi8vIFNlY3VyaXR5IGNoZWNrCmlmICgkdXNl
+ci0+c29jaWQgPiAwKSB7Cgl1bnNldCgkYWN0aW9uKTsKCSRzb2NpZCA9ICR1c2VyLT5zb2NpZDsK
+fQoKJHJlc3VsdCA9IHJlc3RyaWN0ZWRBcmVhKCR1c2VyLCAnc29jaWV0ZScsICRvYmplY3QtPmlk
+LCAnJnNvY2lldGUnKTsKCgovKgogKiBBY3Rpb25zCiAqLwoKJHBhcmFtZXRlcnMgPSBhcnJheSgp
+OwokcmVzaG9vayA9ICRob29rbWFuYWdlci0+ZXhlY3V0ZUhvb2tzKCdkb0FjdGlvbnMnLCAkcGFy
+YW1ldGVycywgJG9iamVjdCwgJGFjdGlvbik7IC8vIE5vdGUgdGhhdCAkYWN0aW9uIGFuZCAkb2Jq
+ZWN0IG1heSBoYXZlIGJlZW4gbW9kaWZpZWQgYnkgc29tZSBob29rcwppZiAoJHJlc2hvb2sgPCAw
+KSB7CglzZXRFd... [truncated 3915 bytes]
+[30-Jul-2025 13:26:32 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:26:33 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753881993 ffacd0b85a97d-3b778f0c48bsm15433465f8f.61 - gsmtp
+[30-Jul-2025 13:26:33 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:26:33 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b778f0c48bsm15433465f8f.61 - gsmtp
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-458953b33e5sm26788045e9.32 - gsmtp
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK 5b1f17b1804b1-458953b33e5sm26788045e9.32 - gsmtp
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK 5b1f17b1804b1-458953b33e5sm26788045e9.32 - gsmtp
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Recv: 354 Go ahead 5b1f17b1804b1-458953b33e5sm26788045e9.32 - gsmtp
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:33:42 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: hgfj
+Message-ID: <bcec0445a18a6df80c07bb97fff333ea@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_276b2bf10446c719ad1f314c68e63a0f"
+
+--=_276b2bf10446c719ad1f314c68e63a0f
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+gffgjfj
+--=_276b2bf10446c719ad1f314c68e63a0f
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=contact.php
+Content-Disposition: attachment;
+ filename=contact.php;
+ size=8123
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgIFJvZG9scGhlIFF1aWVkZXZpbGxlICAg
+IDxyb2RvbHBoZUBxdWllZGV2aWxsZS5vcmc+CiAqIENvcHlyaWdodCAoQykgMjAwMyAgICAgICBC
+cmlhbiBGcmF2YWwgICAgICAgICAgICA8YnJpYW5AZnJhdmFsLm9yZz4KICogQ29weXJpZ2h0IChD
+KSAyMDA0LTIwMTUgIExhdXJlbnQgRGVzdGFpbGxldXIgICAgIDxlbGR5QHVzZXJzLnNvdXJjZWZv
+cmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgIEVyaWMgU2VpZ25lICAgICAgICAg
+ICAgIDxlcmljLnNlaWduZUByeXhlby5jb20+CiAqIENvcHlyaWdodCAoQykgMjAwNS0yMDEyICBS
+ZWdpcyBIb3Vzc2luICAgICAgICAgICA8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICogQ29w
+eXJpZ2h0IChDKSAyMDA4ICAgICAgIFBhdHJpY2sgUmFndWluICAgICAgICAgIDxwYXRyaWNrLnJh
+Z3VpbkBhdWd1cmlhLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDEwLTIwMTYgIEp1YW5qbyBNZW5l
+bnQgICAgICAgICAgIDxqbWVuZW50QDJieXRlLmVzPgogKiBDb3B5cmlnaHQgKEMpIDIwMTEtMjAx
+MyAgQWxleGFuZHJlIFNwYW5nYXJvICAgICAgPGFzcGFuZ2Fyb0BvcGVuLWRzaS5mcj4KICogQ29w
+eXJpZ2h0IChDKSAyMDE1ICAgICAgIEplYW4tRnJhbsOnb2lzIEZlcnJ5ICAgICA8amZlZmVAYXRl
+cm5hdGlrLmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTUgICAgICAgTWFyY29zIEdhcmPDrWEgICAg
+ICAgICAgIDxtYXJjb3NnZGZAZ21haWwuY29tPgogKiBDb3B5cmlnaHQgKEMpIDIwMTUgICAgICAg
+UmFwaGHDq2wgRG91cnNlbmF1ZCAgICAgIDxyZG91cnNlbmF1ZEBncGNzb2x1dGlvbnMuZnI+CiAq
+IENvcHlyaWdodCAoQykgMjAyNCAgICAgICBGcsOpZMOpcmljIEZyYW5jZSAgICAgICAgIDxmcmVk
+ZXJpYy5mcmFuY2VAZnJlZS5mcj4KICogQ29weXJpZ2h0IChDKSAyMDI0LTIwMjUJTURXCQkJCQkJ
+PG1kZXdlZXJkQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbT4KICoKICogVGhpcyBwcm9ncmFtIGlz
+IGZyZWUgc29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICog
+aXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBw
+dWJsaXNoZWQgYnkKICogdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNp
+b24gMyBvZiB0aGUgTGljZW5zZSwgb3IKICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVy
+c2lvbi4KICoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQg
+aXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBl
+dmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNT
+IEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGlj
+IExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVk
+IGEgY29weSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0
+aGlzIHByb2dyYW0uIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4u
+CiAqLwoKLyoqCiAqICBcZmlsZSAgICAgICBodGRvY3Mvc29jaWV0ZS9jb250YWN0LnBocAogKiAg
+XGluZ3JvdXAgICAgc29jaWV0ZQogKiAgXGJyaWVmICAgICAgUGFnZSBvZiBjb250YWN0cyBvZiB0
+aGlyZHBhcnRpZXMKICovCgovLyBMb2FkIERvbGliYXJyIGVudmlyb25tZW50CnJlcXVpcmUgJy4u
+L21haW4uaW5jLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvbGli
+L2NvbXBhbnkubGliLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUv
+bGliL2ltYWdlcy5saWIucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29y
+ZS9saWIvZmlsZXMubGliLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2Nv
+cmUvbGliL2Z1bmN0aW9ucy5saWIucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09U
+LicvY29yZS9jbGFzcy9odG1sLmZvcm1hZG1pbi5jbGFzcy5waHAnOwpyZXF1aXJlX29uY2UgRE9M
+X0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2NsYXNzL2h0bWwuZm9ybWNvbXBhbnkuY2xhc3MucGhwJzsK
+cmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29yZS9jbGFzcy9odG1sLmZvcm1maWxl
+LmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvY2xhc3Mv
+ZXh0cmFmaWVsZHMuY2xhc3MucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicv
+Y29udGFjdC9jbGFzcy9jb250YWN0LmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1F
+TlRfUk9PVC4nL2NhdGVnb3JpZXMvY2xhc3MvY2F0ZWdvcmllLmNsYXNzLnBocCc7CmlmIChpc01v
+ZE... [truncated 7724 bytes]
+[30-Jul-2025 13:33:42 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:33:43 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753882423 5b1f17b1804b1-458953b33e5sm26788045e9.32 - gsmtp
+[30-Jul-2025 13:33:43 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:33:43 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-458953b33e5sm26788045e9.32 - gsmtp
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b778ebaca7sm16253713f8f.30 - gsmtp
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b778ebaca7sm16253713f8f.30 - gsmtp
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b778ebaca7sm16253713f8f.30 - gsmtp
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b778ebaca7sm16253713f8f.30 - gsmtp
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:38:09 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: yryr
+Message-ID: <c7c6b2a4d0055ac1ef59ff50875e8105@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_2eb8774170a5d9c1ba80016f72e5cf65"
+
+--=_2eb8774170a5d9c1ba80016f72e5cf65
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+tryuyt
+--=_2eb8774170a5d9c1ba80016f72e5cf65
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=contact.php
+Content-Disposition: attachment;
+ filename=contact.php;
+ size=8123
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgIFJvZG9scGhlIFF1aWVkZXZpbGxlICAg
+IDxyb2RvbHBoZUBxdWllZGV2aWxsZS5vcmc+CiAqIENvcHlyaWdodCAoQykgMjAwMyAgICAgICBC
+cmlhbiBGcmF2YWwgICAgICAgICAgICA8YnJpYW5AZnJhdmFsLm9yZz4KICogQ29weXJpZ2h0IChD
+KSAyMDA0LTIwMTUgIExhdXJlbnQgRGVzdGFpbGxldXIgICAgIDxlbGR5QHVzZXJzLnNvdXJjZWZv
+cmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgIEVyaWMgU2VpZ25lICAgICAgICAg
+ICAgIDxlcmljLnNlaWduZUByeXhlby5jb20+CiAqIENvcHlyaWdodCAoQykgMjAwNS0yMDEyICBS
+ZWdpcyBIb3Vzc2luICAgICAgICAgICA8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICogQ29w
+eXJpZ2h0IChDKSAyMDA4ICAgICAgIFBhdHJpY2sgUmFndWluICAgICAgICAgIDxwYXRyaWNrLnJh
+Z3VpbkBhdWd1cmlhLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDEwLTIwMTYgIEp1YW5qbyBNZW5l
+bnQgICAgICAgICAgIDxqbWVuZW50QDJieXRlLmVzPgogKiBDb3B5cmlnaHQgKEMpIDIwMTEtMjAx
+MyAgQWxleGFuZHJlIFNwYW5nYXJvICAgICAgPGFzcGFuZ2Fyb0BvcGVuLWRzaS5mcj4KICogQ29w
+eXJpZ2h0IChDKSAyMDE1ICAgICAgIEplYW4tRnJhbsOnb2lzIEZlcnJ5ICAgICA8amZlZmVAYXRl
+cm5hdGlrLmZyPgogKiBDb3B5cmlnaHQgKEMpIDIwMTUgICAgICAgTWFyY29zIEdhcmPDrWEgICAg
+ICAgICAgIDxtYXJjb3NnZGZAZ21haWwuY29tPgogKiBDb3B5cmlnaHQgKEMpIDIwMTUgICAgICAg
+UmFwaGHDq2wgRG91cnNlbmF1ZCAgICAgIDxyZG91cnNlbmF1ZEBncGNzb2x1dGlvbnMuZnI+CiAq
+IENvcHlyaWdodCAoQykgMjAyNCAgICAgICBGcsOpZMOpcmljIEZyYW5jZSAgICAgICAgIDxmcmVk
+ZXJpYy5mcmFuY2VAZnJlZS5mcj4KICogQ29weXJpZ2h0IChDKSAyMDI0LTIwMjUJTURXCQkJCQkJ
+PG1kZXdlZXJkQHVzZXJzLm5vcmVwbHkuZ2l0aHViLmNvbT4KICoKICogVGhpcyBwcm9ncmFtIGlz
+IGZyZWUgc29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICog
+aXQgdW5kZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBw
+dWJsaXNoZWQgYnkKICogdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNp
+b24gMyBvZiB0aGUgTGljZW5zZSwgb3IKICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVy
+c2lvbi4KICoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQg
+aXQgd2lsbCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBl
+dmVuIHRoZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNT
+IEZPUiBBIFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGlj
+IExpY2Vuc2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVk
+IGEgY29weSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0
+aGlzIHByb2dyYW0uIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4u
+CiAqLwoKLyoqCiAqICBcZmlsZSAgICAgICBodGRvY3Mvc29jaWV0ZS9jb250YWN0LnBocAogKiAg
+XGluZ3JvdXAgICAgc29jaWV0ZQogKiAgXGJyaWVmICAgICAgUGFnZSBvZiBjb250YWN0cyBvZiB0
+aGlyZHBhcnRpZXMKICovCgovLyBMb2FkIERvbGliYXJyIGVudmlyb25tZW50CnJlcXVpcmUgJy4u
+L21haW4uaW5jLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvbGli
+L2NvbXBhbnkubGliLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUv
+bGliL2ltYWdlcy5saWIucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29y
+ZS9saWIvZmlsZXMubGliLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2Nv
+cmUvbGliL2Z1bmN0aW9ucy5saWIucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09U
+LicvY29yZS9jbGFzcy9odG1sLmZvcm1hZG1pbi5jbGFzcy5waHAnOwpyZXF1aXJlX29uY2UgRE9M
+X0RPQ1VNRU5UX1JPT1QuJy9jb3JlL2NsYXNzL2h0bWwuZm9ybWNvbXBhbnkuY2xhc3MucGhwJzsK
+cmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29yZS9jbGFzcy9odG1sLmZvcm1maWxl
+LmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUvY2xhc3Mv
+ZXh0cmFmaWVsZHMuY2xhc3MucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicv
+Y29udGFjdC9jbGFzcy9jb250YWN0LmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1F
+TlRfUk9PVC4nL2NhdGVnb3JpZXMvY2xhc3MvY2F0ZWdvcmllLmNsYXNzLnBocCc7CmlmIChpc01v
+ZEV... [truncated 7723 bytes]
+[30-Jul-2025 13:38:09 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:38:10 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753882690 ffacd0b85a97d-3b778ebaca7sm16253713f8f.30 - gsmtp
+[30-Jul-2025 13:38:10 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:38:10 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b778ebaca7sm16253713f8f.30 - gsmtp
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b78b26a4dcsm8606325f8f.32 - gsmtp
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b78b26a4dcsm8606325f8f.32 - gsmtp
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b78b26a4dcsm8606325f8f.32 - gsmtp
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b78b26a4dcsm8606325f8f.32 - gsmtp
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:43:46 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: hqqq
+Message-ID: <ef410472507ddd719b43df4dc5f08734@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_d9f01d5c447639983e1f58e9292d37fc"
+
+--=_d9f01d5c447639983e1f58e9292d37fc
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+hhhhhr
+--=_d9f01d5c447639983e1f58e9292d37fc
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=vcard.php
+Content-Disposition: attachment;
+ filename=vcard.php;
+ size=3583
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDA0CQlSb2RvbHBoZSBRdWllZGV2aWxsZQk8cm9kb2xw
+aGVAcXVpZWRldmlsbGUub3JnPgogKiBDb3B5cmlnaHQgKEMpIDIwMDQtMjAxMAlMYXVyZW50IERl
+c3RhaWxsZXVyCQk8ZWxkeUB1c2Vycy5zb3VyY2Vmb3JnZS5uZXQ+CiAqIENvcHlyaWdodCAoQykg
+MjAwNS0yMDEyCVJlZ2lzIEhvdXNzaW4JCQk8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICog
+Q29weXJpZ2h0IChDKSAyMDIwCQlUb2JpYXMgU2VrYW4JCQk8dG9iaWFzLnNla2FuQHN0YXJ0bWFp
+bC5jb20+CiAqIENvcHlyaWdodCAoQykgMjAyNAkJTURXCQkJCQkJPG1kZXdlZXJkQHVzZXJzLm5v
+cmVwbHkuZ2l0aHViLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0CQlGcsOpZMOpcmljIEZyYW5j
+ZQkJCTxmcmVkZXJpYy5mcmFuY2VAZnJlZS5mcj4KICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUg
+c29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5k
+ZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBwdWJsaXNo
+ZWQgYnkKICogdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNpb24gMyBv
+ZiB0aGUgTGljZW5zZSwgb3IKICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4K
+ICoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2ls
+bCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRo
+ZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBB
+IFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGljIExpY2Vu
+c2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29w
+eSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHBy
+b2dyYW0uIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoK
+LyoqCiAqCSAgICBcZmlsZSAgICAgICBodGRvY3Mvc29jaWV0ZS92Y2FyZC5waHAKICogICAgICBc
+aW5ncm91cCAgICBzb2NpZXRlCiAqCQlcYnJpZWYgICAgICBUaGlyZCBwYXJ0eSB2Y2FyZCBkb3du
+bG9hZAogKi8KCi8vIExvYWQgRG9saWJhcnIgZW52aXJvbm1lbnQKcmVxdWlyZSAnLi4vbWFpbi5p
+bmMucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvc29jaWV0ZS9jbGFzcy9z
+b2NpZXRlLmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUv
+Y2xhc3MvdmNhcmQuY2xhc3MucGhwJzsKCi8qKgogKiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBE
+b2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIgJGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNs
+YXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIKICovCgokY29tcGFueSA9IG5ldyBTb2NpZXRl
+KCRkYik7CgoKJHNvY2lkID0gR0VUUE9TVElOVCgnaWQnKTsKCi8vIFNlY3VyaXR5IGNoZWNrCiRy
+ZXN1bHQgPSByZXN0cmljdGVkQXJlYSgkdXNlciwgJ3NvY2lldGUnLCAkc29jaWQsICcmc29jaWV0
+ZScpOwoKCiRyZXN1bHQgPSAkY29tcGFueS0+ZmV0Y2goJHNvY2lkKTsKaWYgKCRyZXN1bHQgPD0g
+MCkgewoJZG9sX3ByaW50X2Vycm9yKCRkYiwgJGNvbXBhbnktPmVycm9yKTsKCWV4aXQ7Cn0KCgov
+LyBDb21wdXRlIFZDYXJkCiR2ID0gbmV3IHZDYXJkKCk7CiR2LT5zZXRQcm9kSWQoJ0RvbGliYXJy
+ICcuRE9MX1ZFUlNJT04pOwoKJHYtPnNldFVpZCgnRE9MSUJBUlItVEhJUkRQQVJUWUlELScuJGNv
+bXBhbnktPmlkKTsKCgovLyBEYXRhIGZyb20gY29tcGFueQppZiAoIWVtcHR5KCRjb21wYW55LT51
+cmwpKSB7Cgkkdi0+c2V0VVJMKCRjb21wYW55LT51cmwsICJUWVBFPVdPUksiKTsKfQppZiAoIWVt
+cHR5KCRjb21wYW55LT5waG9uZSkpIHsKCSR2LT5zZXRQaG9uZU51bWJlcigkY29tcGFueS0+cGhv
+bmUsICJUWVBFPVdPUks7Vk9JQ0UiKTsKfQppZiAoIWVtcHR5KCRjb21wYW55LT5waG9uZV9tb2Jp
+bGUpKSB7Cgkkdi0+c2V0UGhvbmVOdW1iZXIoJGNvbXBhbnktPnBob25lX21vYmlsZSwgIlRZUEU9
+Q0VMTDtWT0lDRSIpOwp9CmlmICghZW1wdHkoJGNvbXBhbnktPmZheCkpIHsKCSR2LT5zZXRQaG9u
+ZU51bWJlcigkY29tcGFueS0+ZmF4LCAiVFlQRT1XT1JLO0ZBWCIpOwp9CiR2LT5zZXRBZGRyZXNz
+KCIiLCAiIiwgJGNvbXBhbnktPmFkZHJlc3MsICRjb21wYW55LT50b3duLCAkY29tcGFueS0+c3Rh
+dGUsICRjb21wYW55LT56aXAsICRjb21wYW55LT5jb3VudHJ5LCAiVFlQRT1XT1JLO1BPU1RBTCIp
+OwppZiAoIWVtcHR5KHRyaW0oJGNvbXBhbnktPmVtYWlsKSkpIHsKCSR2LT5zZXRFbWFpbCgkY29t
+cGFueS0+ZW1haWwpOwp9CgovLyBJZiB0aGUgY29tcGFueSBpcyBub3QgYSBwcml2YXRlIHBlcnNv
+bgppZiA... [truncated 1507 bytes]
+[30-Jul-2025 13:43:46 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:43:47 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753883027 ffacd0b85a97d-3b78b26a4dcsm8606325f8f.32 - gsmtp
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b795bf9719sm2776840f8f.63 - gsmtp
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:47:53 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b795bf9719sm2776840f8f.63 - gsmtp
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b795bf9719sm2776840f8f.63 - gsmtp
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b795bf9719sm2776840f8f.63 - gsmtp
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:47:53 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: hqqq
+Message-ID: <ef410472507ddd719b43df4dc5f08734@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_d2bea2d87b2329f4059c67a23e42964d"
+
+--=_d2bea2d87b2329f4059c67a23e42964d
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+hhhhhr
+--=_d2bea2d87b2329f4059c67a23e42964d
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=vcard.php
+Content-Disposition: attachment;
+ filename=vcard.php;
+ size=3583
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDA0CQlSb2RvbHBoZSBRdWllZGV2aWxsZQk8cm9kb2xw
+aGVAcXVpZWRldmlsbGUub3JnPgogKiBDb3B5cmlnaHQgKEMpIDIwMDQtMjAxMAlMYXVyZW50IERl
+c3RhaWxsZXVyCQk8ZWxkeUB1c2Vycy5zb3VyY2Vmb3JnZS5uZXQ+CiAqIENvcHlyaWdodCAoQykg
+MjAwNS0yMDEyCVJlZ2lzIEhvdXNzaW4JCQk8cmVnaXMuaG91c3NpbkBpbm9kYm94LmNvbT4KICog
+Q29weXJpZ2h0IChDKSAyMDIwCQlUb2JpYXMgU2VrYW4JCQk8dG9iaWFzLnNla2FuQHN0YXJ0bWFp
+bC5jb20+CiAqIENvcHlyaWdodCAoQykgMjAyNAkJTURXCQkJCQkJPG1kZXdlZXJkQHVzZXJzLm5v
+cmVwbHkuZ2l0aHViLmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0CQlGcsOpZMOpcmljIEZyYW5j
+ZQkJCTxmcmVkZXJpYy5mcmFuY2VAZnJlZS5mcj4KICoKICogVGhpcyBwcm9ncmFtIGlzIGZyZWUg
+c29mdHdhcmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vciBtb2RpZnkKICogaXQgdW5k
+ZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSBhcyBwdWJsaXNo
+ZWQgYnkKICogdGhlIEZyZWUgU29mdHdhcmUgRm91bmRhdGlvbjsgZWl0aGVyIHZlcnNpb24gMyBv
+ZiB0aGUgTGljZW5zZSwgb3IKICogKGF0IHlvdXIgb3B0aW9uKSBhbnkgbGF0ZXIgdmVyc2lvbi4K
+ICoKICogVGhpcyBwcm9ncmFtIGlzIGRpc3RyaWJ1dGVkIGluIHRoZSBob3BlIHRoYXQgaXQgd2ls
+bCBiZSB1c2VmdWwsCiAqIGJ1dCBXSVRIT1VUIEFOWSBXQVJSQU5UWTsgd2l0aG91dCBldmVuIHRo
+ZSBpbXBsaWVkIHdhcnJhbnR5IG9mCiAqIE1FUkNIQU5UQUJJTElUWSBvciBGSVRORVNTIEZPUiBB
+IFBBUlRJQ1VMQVIgUFVSUE9TRS4gIFNlZSB0aGUKICogR05VIEdlbmVyYWwgUHVibGljIExpY2Vu
+c2UgZm9yIG1vcmUgZGV0YWlscy4KICoKICogWW91IHNob3VsZCBoYXZlIHJlY2VpdmVkIGEgY29w
+eSBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIExpY2Vuc2UKICogYWxvbmcgd2l0aCB0aGlzIHBy
+b2dyYW0uIElmIG5vdCwgc2VlIDxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzLz4uCiAqLwoK
+LyoqCiAqCSAgICBcZmlsZSAgICAgICBodGRvY3Mvc29jaWV0ZS92Y2FyZC5waHAKICogICAgICBc
+aW5ncm91cCAgICBzb2NpZXRlCiAqCQlcYnJpZWYgICAgICBUaGlyZCBwYXJ0eSB2Y2FyZCBkb3du
+bG9hZAogKi8KCi8vIExvYWQgRG9saWJhcnIgZW52aXJvbm1lbnQKcmVxdWlyZSAnLi4vbWFpbi5p
+bmMucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvc29jaWV0ZS9jbGFzcy9z
+b2NpZXRlLmNsYXNzLnBocCc7CnJlcXVpcmVfb25jZSBET0xfRE9DVU1FTlRfUk9PVC4nL2NvcmUv
+Y2xhc3MvdmNhcmQuY2xhc3MucGhwJzsKCi8qKgogKiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBE
+b2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIgJGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNs
+YXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIKICovCgokY29tcGFueSA9IG5ldyBTb2NpZXRl
+KCRkYik7CgoKJHNvY2lkID0gR0VUUE9TVElOVCgnaWQnKTsKCi8vIFNlY3VyaXR5IGNoZWNrCiRy
+ZXN1bHQgPSByZXN0cmljdGVkQXJlYSgkdXNlciwgJ3NvY2lldGUnLCAkc29jaWQsICcmc29jaWV0
+ZScpOwoKCiRyZXN1bHQgPSAkY29tcGFueS0+ZmV0Y2goJHNvY2lkKTsKaWYgKCRyZXN1bHQgPD0g
+MCkgewoJZG9sX3ByaW50X2Vycm9yKCRkYiwgJGNvbXBhbnktPmVycm9yKTsKCWV4aXQ7Cn0KCgov
+LyBDb21wdXRlIFZDYXJkCiR2ID0gbmV3IHZDYXJkKCk7CiR2LT5zZXRQcm9kSWQoJ0RvbGliYXJy
+ICcuRE9MX1ZFUlNJT04pOwoKJHYtPnNldFVpZCgnRE9MSUJBUlItVEhJUkRQQVJUWUlELScuJGNv
+bXBhbnktPmlkKTsKCgovLyBEYXRhIGZyb20gY29tcGFueQppZiAoIWVtcHR5KCRjb21wYW55LT51
+cmwpKSB7Cgkkdi0+c2V0VVJMKCRjb21wYW55LT51cmwsICJUWVBFPVdPUksiKTsKfQppZiAoIWVt
+cHR5KCRjb21wYW55LT5waG9uZSkpIHsKCSR2LT5zZXRQaG9uZU51bWJlcigkY29tcGFueS0+cGhv
+bmUsICJUWVBFPVdPUks7Vk9JQ0UiKTsKfQppZiAoIWVtcHR5KCRjb21wYW55LT5waG9uZV9tb2Jp
+bGUpKSB7Cgkkdi0+c2V0UGhvbmVOdW1iZXIoJGNvbXBhbnktPnBob25lX21vYmlsZSwgIlRZUEU9
+Q0VMTDtWT0lDRSIpOwp9CmlmICghZW1wdHkoJGNvbXBhbnktPmZheCkpIHsKCSR2LT5zZXRQaG9u
+ZU51bWJlcigkY29tcGFueS0+ZmF4LCAiVFlQRT1XT1JLO0ZBWCIpOwp9CiR2LT5zZXRBZGRyZXNz
+KCIiLCAiIiwgJGNvbXBhbnktPmFkZHJlc3MsICRjb21wYW55LT50b3duLCAkY29tcGFueS0+c3Rh
+dGUsICRjb21wYW55LT56aXAsICRjb21wYW55LT5jb3VudHJ5LCAiVFlQRT1XT1JLO1BPU1RBTCIp
+OwppZiAoIWVtcHR5KHRyaW0oJGNvbXBhbnktPmVtYWlsKSkpIHsKCSR2LT5zZXRFbWFpbCgkY29t
+cGFueS0+ZW1haWwpOwp9CgovLyBJZiB0aGUgY29tcGFueSBpcyBub3QgYSBwcml2YXRlIHBlcnNv
+bgppZiA... [truncated 1507 bytes]
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753883274 ffacd0b85a97d-3b795bf9719sm2776840f8f.63 - gsmtp
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:47:54 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b795bf9719sm2776840f8f.63 - gsmtp
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4588d89c50fsm41978585e9.0 - gsmtp
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK 5b1f17b1804b1-4588d89c50fsm41978585e9.0 - gsmtp
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK 5b1f17b1804b1-4588d89c50fsm41978585e9.0 - gsmtp
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Recv: 354 Go ahead 5b1f17b1804b1-4588d89c50fsm41978585e9.0 - gsmtp
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:51:25 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: hqqq
+Message-ID: <3eb969767cab5a4401c6cdcde761d988@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_55d92f3c38d4706080d5133ada962f63"
+
+--=_55d92f3c38d4706080d5133ada962f63
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+fttt
+--=_55d92f3c38d4706080d5133ada962f63
+Content-Transfer-Encoding: base64
+Content-Type: text/x-php;
+ name=messaging.php
+Content-Disposition: attachment;
+ filename=messaging.php;
+ size=9038
+
+PD9waHAKLyogQ29weXJpZ2h0IChDKSAyMDAxLTIwMDcgUm9kb2xwaGUgUXVpZWRldmlsbGUgPHJv
+ZG9scGhlQHF1aWVkZXZpbGxlLm9yZz4KICogQ29weXJpZ2h0IChDKSAyMDA1ICAgICAgQnJpY2Ug
+RGF2b2xlYXUgICAgICAgPGJyaWNlLmRhdm9sZWF1QGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChD
+KSAyMDA1LTIwMTIgUmVnaXMgSG91c3NpbiAgICAgICAgPHJlZ2lzLmhvdXNzaW5AaW5vZGJveC5j
+b20+CiAqIENvcHlyaWdodCAoQykgMjAwNi0yMDE5IExhdXJlbnQgRGVzdGFpbGxldXIgIDxlbGR5
+QHVzZXJzLnNvdXJjZWZvcmdlLm5ldD4KICogQ29weXJpZ2h0IChDKSAyMDA3ICAgICAgUGF0cmlj
+ayBSYWd1aW4gIAkJPHBhdHJpY2sucmFndWluQGdtYWlsLmNvbT4KICogQ29weXJpZ2h0IChDKSAy
+MDEwICAgICAgSnVhbmpvIE1lbmVudCAgICAgICAgPGptZW5lbnRAMmJ5dGUuZXM+CiAqIENvcHly
+aWdodCAoQykgMjAxNSAgICAgIE1hcmNvcyBHYXJjw61hICAgICAgICA8bWFyY29zZ2RmQGdtYWls
+LmNvbT4KICogQ29weXJpZ2h0IChDKSAyMDI0ICAgICAgIEZyw6lkw6lyaWMgRnJhbmNlICAgICAg
+ICAgPGZyZWRlcmljLmZyYW5jZUBmcmVlLmZyPgogKgogKiBUaGlzIHByb2dyYW0gaXMgZnJlZSBz
+b2Z0d2FyZTsgeW91IGNhbiByZWRpc3RyaWJ1dGUgaXQgYW5kL29yIG1vZGlmeQogKiBpdCB1bmRl
+ciB0aGUgdGVybXMgb2YgdGhlIEdOVSBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlIGFzIHB1Ymxpc2hl
+ZCBieQogKiB0aGUgRnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uOyBlaXRoZXIgdmVyc2lvbiAzIG9m
+IHRoZSBMaWNlbnNlLCBvcgogKiAoYXQgeW91ciBvcHRpb24pIGFueSBsYXRlciB2ZXJzaW9uLgog
+KgogKiBUaGlzIHByb2dyYW0gaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxs
+IGJlIHVzZWZ1bCwKICogYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhl
+IGltcGxpZWQgd2FycmFudHkgb2YKICogTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1MgRk9SIEEg
+UEFSVElDVUxBUiBQVVJQT1NFLiAgU2VlIHRoZQogKiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5z
+ZSBmb3IgbW9yZSBkZXRhaWxzLgogKgogKiBZb3Ugc2hvdWxkIGhhdmUgcmVjZWl2ZWQgYSBjb3B5
+IG9mIHRoZSBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZQogKiBhbG9uZyB3aXRoIHRoaXMgcHJv
+Z3JhbS4gSWYgbm90LCBzZWUgPGh0dHBzOi8vd3d3LmdudS5vcmcvbGljZW5zZXMvPi4KICovCgov
+KioKICogIFxmaWxlICAgICAgIGh0ZG9jcy9zb2NpZXRlL21lc3NhZ2luZy5waHAKICogIFxpbmdy
+b3VwICAgIHNvY2lldGUKICogIFxicmllZiAgICAgIFBhZ2Ugb2YgdGhpcmQgcGFydHkgZXZlbnRz
+CiAqLwoKLy8gTG9hZCBEb2xpYmFyciBlbnZpcm9ubWVudApyZXF1aXJlICcuLi9tYWluLmluYy5w
+aHAnOwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5UX1JPT1QuJy9jb250YWN0L2NsYXNzL2NvbnRh
+Y3QuY2xhc3MucGhwJzsKcmVxdWlyZV9vbmNlIERPTF9ET0NVTUVOVF9ST09ULicvY29tcHRhL2Zh
+Y3R1cmUvY2xhc3MvZmFjdHVyZS5jbGFzcy5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RPQ1VNRU5U
+X1JPT1QuJy9jb3JlL2xpYi9mdW5jdGlvbnMyLmxpYi5waHAnOwpyZXF1aXJlX29uY2UgRE9MX0RP
+Q1VNRU5UX1JPT1QuJy9jb3JlL2xpYi9jb21wYW55LmxpYi5waHAnOwpyZXF1aXJlX29uY2UgRE9M
+X0RPQ1VNRU5UX1JPT1QuJy9zb2NpZXRlL2NsYXNzL3NvY2lldGUuY2xhc3MucGhwJzsKCi8qKgog
+KiBAdmFyIENvbmYgJGNvbmYKICogQHZhciBEb2xpREIgJGRiCiAqIEB2YXIgSG9va01hbmFnZXIg
+JGhvb2ttYW5hZ2VyCiAqIEB2YXIgVHJhbnNsYXRlICRsYW5ncwogKiBAdmFyIFVzZXIgJHVzZXIK
+ICovCgovLyBMb2FkIHRyYW5zbGF0aW9uIGZpbGVzIHJlcXVpcmVkIGJ5IHRoZSBwYWdlCiRsYW5n
+cy0+bG9hZExhbmdzKGFycmF5KCdhZ2VuZGEnLCAnYmlsbHMnLCAnY29tcGFuaWVzJywgJ29yZGVy
+cycsICdwcm9wYWwnKSk7CgokY29udGV4dHBhZ2UgPSBHRVRQT1NUKCdjb250ZXh0cGFnZScsICdh
+WicpID8gR0VUUE9TVCgnY29udGV4dHBhZ2UnLCAnYVonKSA6ICd0aGlyZHBhcnR5YWdlbmRhJzsK
+CmlmIChHRVRQT1NUKCdhY3Rpb25jb2RlJywgJ2FycmF5JykpIHsKCSRhY3Rpb25jb2RlID0gR0VU
+UE9TVCgnYWN0aW9uY29kZScsICdhcnJheScsIDMpOwoJaWYgKCFjb3VudCgkYWN0aW9uY29kZSkp
+IHsKCQkkYWN0aW9uY29kZSA9ICcwJzsKCX0KfSBlbHNlIHsKCSRhY3Rpb25jb2RlID0gR0VUUE9T
+VCgiYWN0aW9uY29kZSIsICJhbHBoYSIsIDMpID8gR0VUUE9TVCgiYWN0aW9uY29kZSIsICJhbHBo
+YSIsIDMpIDogKEdFVFBPU1QoImFjdGlvbmNvZGUiKSA9PSAnMCcgPyAnMCcgOiBnZXREb2xHbG9i
+YWxTdHJpbmcoJ0FHRU5EQV9ERUZBVUxUX0ZJTFRFUl9UWVBFX0ZPUl9PQkpFQ1QnKSk7Cn0KCiRz
+ZWFyY2hfcm93aWQgPSBHRVRQT1NUKCdzZWFyY2hfcm93aWQnKTsKJHNlYXJjaF9hZ2VuZGFfbGFi
+Z... [truncated 8977 bytes]
+[30-Jul-2025 13:51:25 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:51:26 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753883486 5b1f17b1804b1-4588d89c50fsm41978585e9.0 - gsmtp
+[30-Jul-2025 13:51:26 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:51:26 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-4588d89c50fsm41978585e9.0 - gsmtp
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b778f034a6sm16123245f8f.47 - gsmtp
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b778f034a6sm16123245f8f.47 - gsmtp
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b778f034a6sm16123245f8f.47 - gsmtp
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b778f034a6sm16123245f8f.47 - gsmtp
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 13:59:30 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: probleme sur roundcube
+Message-ID: <eab9030127837ac5e060fd2ad1606084@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_01a39bfc035640a693a9c1c3cc97c0ca"
+
+--=_01a39bfc035640a693a9c1c3cc97c0ca
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+efze
+--=_01a39bfc035640a693a9c1c3cc97c0ca
+Content-Transfer-Encoding: base64
+Content-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document;
+ name="=?UTF-8?Q?probl=C3=A8me=5Fsur=5Froundcube=2Edocx?="
+Content-Disposition: attachment;
+ filename*=UTF-8''probl%C3%A8me_sur_roundcube.docx;
+ size=22065
+
+UEsDBBQABgAIAAAAIQAykW9XZgEAAKUFAAATAAgCW0NvbnRlbnRfVHlwZXNdLnhtbCCiBAIooAAC
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC0
+lMtqwzAQRfeF/oPRtthKuiilxMmij2UbaPoBijRORPVCo7z+vuM4MaUkMTTJxiDP3HvPCDGD0dqa
+bAkRtXcl6xc9loGTXmk3K9nX5C1/ZBkm4ZQw3kHJNoBsNLy9GUw2ATAjtcOSzVMKT5yjnIMVWPgA
+jiqVj1YkOsYZD0J+ixnw+17vgUvvEriUp9qDDQcvUImFSdnrmn43JBEMsuy5aayzSiZCMFqKRHW+
+dOpPSr5LKEi57cG5DnhHDYwfTKgrxwN2ug+6mqgVZGMR07uw1MVXPiquvFxYUhanbQ5w+qrSElp9
+7Rail4BId25N0Vas0G7Pf5TDLewUIikvD9Jad0Jg2hjAyxM0vt3xkBIJrgGwc+5EWMH082oUv8w7
+QSrKnYipgctjtNadEInWADTf/tkcW5tTkdQ5jj4grZX4j7H3e6NW5zRwgJj06VfXJpL12fNBvZIU
+qAPZfLtkhz8AAAD//wMAUEsDBBQABgAIAAAAIQAekRq37wAAAE4CAAALAAgCX3JlbHMvLnJlbHMg
+ogQCKKAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAArJLBasMwDEDvg/2D0b1R2sEYo04vY9DbGNkHCFtJTBPb2GrX/v082NgCXelhR8vS05PQ
+enOcRnXglF3wGpZVDYq9Cdb5XsNb+7x4AJWFvKUxeNZw4gyb5vZm/cojSSnKg4tZFYrPGgaR+IiY
+zcAT5SpE9uWnC2kiKc/UYySzo55xVdf3mH4zoJkx1dZqSFt7B6o9Rb6GHbrOGX4KZj+xlzMtkI/C
+3rJdxFTqk7gyjWop9SwabDAvJZyRYqwKGvC80ep6o7+nxYmFLAmhCYkv+3xmXBJa/ueK5hk/Nu8h
+WbRf4W8bnF1B8wEAAP//AwBQSwMEFAAGAAgAAAAhAJ44F1s6AQAAbAQAABwACAF3b3JkL19yZWxz
+L2RvY3VtZW50LnhtbC5yZWxzIKIEASigAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArJRP
+T8MwDMXvSHyHKneWbcBAaGkvgLQDFxhnlKbuHy21q8SF7dsTBts6MSoOPfpFfv7lWck8Wdc2egfn
+K0IlJqOxiAANZRUWSrwuHy9uReRZY6YtISixAS+S+Pxs/gxWc2jyZdX4KLigV6Jkbu6k9KaEWvsR
+NYDhJCdXaw6lK2SjzUoXIKfj8Uy6roeIjzyjRaaEW2SXIlpuGviPN+V5ZeCeTFsD8okR0gNzuJkP
+ntoVwErslFHwEvI0ws2QCBx64TB/W36Lkz6G6aAx8MZCN4Rt3Td+MuR4bOsUXEj9QLCX+iBmQ0Lk
+hLzUqe3sYi/1QVwPCVEGJ2crXB0gfmwtGW1L8iwdtZiZNgWZvOmWyVJRofpayLbjibIA87BmcKj/
+pL4akvoD0pdfD6kj7uKTR39E/AkAAP//AwBQSwMEFAAGAAgAAAAhAL6LoHM7HwAAgU0CABEAAAB3
+b3JkL2RvY3V... [truncated 26949 bytes]
+[30-Jul-2025 13:59:30 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 13:59:31 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753883971 ffacd0b85a97d-3b778f034a6sm16123245f8f.47 - gsmtp
+[30-Jul-2025 13:59:31 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 13:59:31 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b778f034a6sm16123245f8f.47 - gsmtp
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b788f5f27esm9984758f8f.14 - gsmtp
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b788f5f27esm9984758f8f.14 - gsmtp
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b788f5f27esm9984758f8f.14 - gsmtp
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b788f5f27esm9984758f8f.14 - gsmtp
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 14:08:32 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: probleme sur roundc
+Message-ID: <56e8a4a62ca91dc42a949214077f90e8@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_cb438b1eb79117df3adcfe1104d3ba4b"
+
+--=_cb438b1eb79117df3adcfe1104d3ba4b
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+gdgdf
+--=_cb438b1eb79117df3adcfe1104d3ba4b
+Content-Transfer-Encoding: base64
+Content-Type: application/pdf;
+ name=testry.pdf
+Content-Disposition: attachment;
+ filename=testry.pdf;
+ size=183427
+
+JVBERi0xLjUNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFu
+Zyhmci1GUikgL1N0cnVjdFRyZWVSb290IDEwIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4+
+Pg0KZW5kb2JqDQoyIDAgb2JqDQo8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1sgMyAwIFJdID4+
+DQplbmRvYmoNCjMgMCBvYmoNCjw8L1R5cGUvUGFnZS9QYXJlbnQgMiAwIFIvUmVzb3VyY2VzPDwv
+Rm9udDw8L0YxIDUgMCBSPj4vRXh0R1N0YXRlPDwvR1M3IDcgMCBSL0dTOCA4IDAgUj4+L1Byb2NT
+ZXRbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXSA+Pi9NZWRpYUJveFsgMCAwIDU5NS4y
+IDg0MS45Ml0gL0NvbnRlbnRzIDQgMCBSL0dyb3VwPDwvVHlwZS9Hcm91cC9TL1RyYW5zcGFyZW5j
+eS9DUy9EZXZpY2VSR0I+Pi9UYWJzL1MvU3RydWN0UGFyZW50cyAwPj4NCmVuZG9iag0KNCAwIG9i
+ag0KPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCAxNjY+Pg0Kc3RyZWFtDQp4nKWOPQvCMBiE
+9xfyH25sHdI3tW0SKB36YVEQFAMO4lg7Kdh28d8bSwedve3geO5BdECeR/tqW4OLAmVd4SmIJX9i
+TGbBSG0qY5hESRtj6ASdV3gIKp2gaKOglOQE7iZI+TFDQbM0cQKdsVzD3f2sPWn0owejn5tZWivo
+EkyhDbpxCnUwvMIr3E5Q49lHQf+r2EzqzHypzAbLMX7f0OwrvAFRfjWLDQplbmRzdHJlYW0NCmVu
+ZG9iag0KNSAwIG9iag0KPDwvVHlwZS9Gb250L1N1YnR5cGUvVHJ1ZVR5cGUvTmFtZS9GMS9CYXNl
+Rm9udC9BQkNERUUrQ2FsaWJyaS9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcvRm9udERlc2NyaXB0
+b3IgNiAwIFIvRmlyc3RDaGFyIDMyL0xhc3RDaGFyIDEyMS9XaWR0aHMgMTcgMCBSPj4NCmVuZG9i
+ag0KNiAwIG9iag0KPDwvVHlwZS9Gb250RGVzY3JpcHRvci9Gb250TmFtZS9BQkNERUUrQ2FsaWJy
+aS9GbGFncyAzMi9JdGFsaWNBbmdsZSAwL0FzY2VudCA3NTAvRGVzY2VudCAtMjUwL0NhcEhlaWdo
+dCA3NTAvQXZnV2lkdGggNTIxL01heFdpZHRoIDE3NDMvRm9udFdlaWdodCA0MDAvWEhlaWdodCAy
+NTAvU3RlbVYgNTIvRm9udEJCb3hbIC01MDMgLTI1MCAxMjQwIDc1MF0gL0ZvbnRGaWxlMiAxOCAw
+IFI+Pg0KZW5kb2JqDQo3IDAgb2JqDQo8PC9UeXBlL0V4dEdTdGF0ZS9CTS9Ob3JtYWwvY2EgMT4+
+DQplbmRvYmoNCjggMCBvYmoNCjw8L1R5cGUvRXh0R1N0YXRlL0JNL05vcm1hbC9DQSAxPj4NCmVu
+ZG9iag0KOSAwIG9iag0KPDwvQXV0aG9yKEd1eSBLZW55KSAvQ3JlYXRvcij+/wBNAGkAYwByAG8A
+cwBvAGYAdACuACAAVwBvAHIAZAAgADIAMAAxADYpIC9DcmVhdGlvbkRhdGUoRDoyMDI1MDczMDE2
+MDc1NiswMicwMCcpIC9Nb2REYXRlKEQ6MjAyNTA3MzAxNjA3NTYrMDInMDAnKSAvUHJvZHVjZXIo
+/v8ATQBpAGMAcgBvAHMAbwBmAHQArgAgAFcAbwByAGQAIAAyADAAMQA2KSA+Pg0KZW5kb2JqDQox
+NiAwIG9iag0KPDwvVHlwZS9PYmpTdG0vTiA2L0ZpcnN0IDM5L0ZpbHRlci9GbGF0ZURlY29kZS9M
+ZW5ndGggMjg0Pj4NCnN0cmVhbQ0KeJxtUcGKgzAQvRf6D/MHY6zCLpTCsm3ZpVREhT2UHlKd1VBN
+Shqh/ftN1GIOCyGZN/Pey2TCIgiArSBmwGwQ2MOu9xBYCFH4BiyGyNbWa0wdLYAMc0yxeN4Ic6P7
+0uxa6vBwguAMmNYwcDab5WKUBC8J1+Y/FXP3Z2eYFB6j0ESZUgYz1dKR31xjzss6kRyqrkeXcTar
+0carJvQwB3oCm6z31ksqQ5i4bSerGRSWelEPzKk0+EW8Ij3GTvOKv2UrJOUNdx26xIe0DtwIJSes
+jfjlNhjQj9LXi1JX3Kqy72xPQ+beEJlxGEdeauXhz8buHt4K3qraS+StqMjjjvdYWq15h3tR95qm
+tyZ9dz+5j43n6c6zXi7+AE3Qm78NCmVuZHN0cmVhbQ0KZW5kb2JqDQoxNyAwIG9iag0KWyAyMjYg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDQ5OCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAzNDkgMzkx
+IDMzNSAwIDAgMCAwIDQ1M10gDQplbmRvYmoNCjE4IDAgb2JqDQo8PC9GaWx0ZXIvRmxhdGVEZWNv
+ZGUvTGVuZ3RoIDE4MDI5Ny9MZW5ndGgxIDU0NjAwND4+DQpzdHJlYW0NCnic7H0HeJRV2vY57zst
+mUwyk55MwswwJJRJSCABElqGVHoLg0loCSkEDRBDAFHAKAgaQXGtKCoq6rpYJgNKsKJrW3vBsroW
+dl07trXRkv8+7zMnBH7d/df9vvXb758nuee+n+eU9/T3cJFcYZwxFo8PHasuLp9QdvHeD8uZKWc0
+Y65rSgqLZy3/JP5xxnNyGVNtJYWTix5+bBb87J2MKVvLiktKpzxefSHT1W1nzGgomz6t/I4dsVcz
+3Rk7mfrUNWXlvsJb/LuOMj78OaZmvjCtPGvo9Y/W3ssY/xhPra5dUtM8bkjNdMaaUJ9aXbuy1bmv
++c1hjN2cwZj+wYbmRUvWvauOYKxZx5jFs6hmeTPrw9x4/hUob13UtLrhi8Nbkf921Oe8trG+pq7r
+2F2vof4mpA9vRMByV8oh+Kif9Wtc0nrWkmbzWLR9PGOnzz2jvmVpwqHExYx1b0Z6S9Oy2pryrIlr
+GXt6A2MjDEtqzmoevCTtCMo/jXTnkvrWmmvP37ES/UF5tmFpzZL6uMhLVjAxhi... [truncated 247634 bytes]
+[30-Jul-2025 14:08:32 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 14:08:33 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753884513 ffacd0b85a97d-3b788f5f27esm9984758f8f.14 - gsmtp
+[30-Jul-2025 14:08:33 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 14:08:33 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b788f5f27esm9984758f8f.14 - gsmtp
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Connecting to tls://smtp.gmail.com:587...
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b792ce46fbsm5308773f8f.0 - gsmtp
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-STARTTLS
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: STARTTLS
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 220 2.0.0 Ready to start TLS
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: EHLO localhost
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-SIZE 35882577
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-8BITMIME
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-ENHANCEDSTATUSCODES
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250-PIPELINING
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250 SMTPUTF8
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: AUTH PLAIN
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 334 
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: ****** [64]
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 235 2.7.0 Accepted
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250 2.1.0 OK ffacd0b85a97d-3b792ce46fbsm5308773f8f.0 - gsmtp
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: RCPT TO:<guydany8@gmail.com>
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 250 2.1.5 OK ffacd0b85a97d-3b792ce46fbsm5308773f8f.0 - gsmtp
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: DATA
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Recv: 354 Go ahead ffacd0b85a97d-3b792ce46fbsm5308773f8f.0 - gsmtp
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: MIME-Version: 1.0
+Date: Wed, 30 Jul 2025 14:24:24 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: probl
+Message-ID: <1972000b415d7f28457a3b1ac341f0fd@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_91c287b290b5fa680420ef27e1534024"
+
+--=_91c287b290b5fa680420ef27e1534024
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+hjj
+--=_91c287b290b5fa680420ef27e1534024
+Content-Transfer-Encoding: base64
+Content-Type: application/pdf;
+ name=testry.pdf
+Content-Disposition: attachment;
+ filename=testry.pdf;
+ size=183427
+
+JVBERi0xLjUNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFu
+Zyhmci1GUikgL1N0cnVjdFRyZWVSb290IDEwIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4+
+Pg0KZW5kb2JqDQoyIDAgb2JqDQo8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1sgMyAwIFJdID4+
+DQplbmRvYmoNCjMgMCBvYmoNCjw8L1R5cGUvUGFnZS9QYXJlbnQgMiAwIFIvUmVzb3VyY2VzPDwv
+Rm9udDw8L0YxIDUgMCBSPj4vRXh0R1N0YXRlPDwvR1M3IDcgMCBSL0dTOCA4IDAgUj4+L1Byb2NT
+ZXRbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXSA+Pi9NZWRpYUJveFsgMCAwIDU5NS4y
+IDg0MS45Ml0gL0NvbnRlbnRzIDQgMCBSL0dyb3VwPDwvVHlwZS9Hcm91cC9TL1RyYW5zcGFyZW5j
+eS9DUy9EZXZpY2VSR0I+Pi9UYWJzL1MvU3RydWN0UGFyZW50cyAwPj4NCmVuZG9iag0KNCAwIG9i
+ag0KPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCAxNjY+Pg0Kc3RyZWFtDQp4nKWOPQvCMBiE
+9xfyH25sHdI3tW0SKB36YVEQFAMO4lg7Kdh28d8bSwedve3geO5BdECeR/tqW4OLAmVd4SmIJX9i
+TGbBSG0qY5hESRtj6ASdV3gIKp2gaKOglOQE7iZI+TFDQbM0cQKdsVzD3f2sPWn0owejn5tZWivo
+EkyhDbpxCnUwvMIr3E5Q49lHQf+r2EzqzHypzAbLMX7f0OwrvAFRfjWLDQplbmRzdHJlYW0NCmVu
+ZG9iag0KNSAwIG9iag0KPDwvVHlwZS9Gb250L1N1YnR5cGUvVHJ1ZVR5cGUvTmFtZS9GMS9CYXNl
+Rm9udC9BQkNERUUrQ2FsaWJyaS9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcvRm9udERlc2NyaXB0
+b3IgNiAwIFIvRmlyc3RDaGFyIDMyL0xhc3RDaGFyIDEyMS9XaWR0aHMgMTcgMCBSPj4NCmVuZG9i
+ag0KNiAwIG9iag0KPDwvVHlwZS9Gb250RGVzY3JpcHRvci9Gb250TmFtZS9BQkNERUUrQ2FsaWJy
+aS9GbGFncyAzMi9JdGFsaWNBbmdsZSAwL0FzY2VudCA3NTAvRGVzY2VudCAtMjUwL0NhcEhlaWdo
+dCA3NTAvQXZnV2lkdGggNTIxL01heFdpZHRoIDE3NDMvRm9udFdlaWdodCA0MDAvWEhlaWdodCAy
+NTAvU3RlbVYgNTIvRm9udEJCb3hbIC01MDMgLTI1MCAxMjQwIDc1MF0gL0ZvbnRGaWxlMiAxOCAw
+IFI+Pg0KZW5kb2JqDQo3IDAgb2JqDQo8PC9UeXBlL0V4dEdTdGF0ZS9CTS9Ob3JtYWwvY2EgMT4+
+DQplbmRvYmoNCjggMCBvYmoNCjw8L1R5cGUvRXh0R1N0YXRlL0JNL05vcm1hbC9DQSAxPj4NCmVu
+ZG9iag0KOSAwIG9iag0KPDwvQXV0aG9yKEd1eSBLZW55KSAvQ3JlYXRvcij+/wBNAGkAYwByAG8A
+cwBvAGYAdACuACAAVwBvAHIAZAAgADIAMAAxADYpIC9DcmVhdGlvbkRhdGUoRDoyMDI1MDczMDE2
+MDc1NiswMicwMCcpIC9Nb2REYXRlKEQ6MjAyNTA3MzAxNjA3NTYrMDInMDAnKSAvUHJvZHVjZXIo
+/v8ATQBpAGMAcgBvAHMAbwBmAHQArgAgAFcAbwByAGQAIAAyADAAMQA2KSA+Pg0KZW5kb2JqDQox
+NiAwIG9iag0KPDwvVHlwZS9PYmpTdG0vTiA2L0ZpcnN0IDM5L0ZpbHRlci9GbGF0ZURlY29kZS9M
+ZW5ndGggMjg0Pj4NCnN0cmVhbQ0KeJxtUcGKgzAQvRf6D/MHY6zCLpTCsm3ZpVREhT2UHlKd1VBN
+Shqh/ftN1GIOCyGZN/Pey2TCIgiArSBmwGwQ2MOu9xBYCFH4BiyGyNbWa0wdLYAMc0yxeN4Ic6P7
+0uxa6vBwguAMmNYwcDab5WKUBC8J1+Y/FXP3Z2eYFB6j0ESZUgYz1dKR31xjzss6kRyqrkeXcTar
+0carJvQwB3oCm6z31ksqQ5i4bSerGRSWelEPzKk0+EW8Ij3GTvOKv2UrJOUNdx26xIe0DtwIJSes
+jfjlNhjQj9LXi1JX3Kqy72xPQ+beEJlxGEdeauXhz8buHt4K3qraS+StqMjjjvdYWq15h3tR95qm
+tyZ9dz+5j43n6c6zXi7+AE3Qm78NCmVuZHN0cmVhbQ0KZW5kb2JqDQoxNyAwIG9iag0KWyAyMjYg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDQ5OCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAzNDkgMzkx
+IDMzNSAwIDAgMCAwIDQ1M10gDQplbmRvYmoNCjE4IDAgb2JqDQo8PC9GaWx0ZXIvRmxhdGVEZWNv
+ZGUvTGVuZ3RoIDE4MDI5Ny9MZW5ndGgxIDU0NjAwND4+DQpzdHJlYW0NCnic7H0HeJRV2vY57zst
+mUwyk55MwswwJJRJSCABElqGVHoLg0loCSkEDRBDAFHAKAgaQXGtKCoq6rpYJgNKsKJrW3vBsroW
+dl07trXRkv8+7zMnBH7d/df9vvXb758nuee+n+eU9/T3cJFcYZwxFo8PHasuLp9QdvHeD8uZKWc0
+Y65rSgqLZy3/JP5xxnNyGVNtJYWTix5+bBb87J2MKVvLiktKpzxefSHT1W1nzGgomz6t/I4dsVcz
+3Rk7mfrUNWXlvsJb/LuOMj78OaZmvjCtPGvo9Y/W3ssY/xhPra5dUtM8bkjNdMaaUJ9aXbuy1bmv
++c1hjN2cwZj+wYbmRUvWvauOYKxZx5jFs6hmeTPrw9x4/hUob13UtLrhi8Nbkf921Oe8trG+pq7r
+2F2vof4mpA9vRMByV8oh+Kif9Wtc0nrWkmbzWLR9PGOnzz2jvmVpwqHExYx1b0Z6S9Oy2pryrIlr
+GXt6A2MjDEtqzmoevCTtCMo/jXTnkvrWmmvP37ES/UF5tmFpzZL6uMhLVjAxhiy7tXnZ8tZuO9uI
+... [truncated 247618 bytes]
+[30-Jul-2025 14:24:24 +0000]: <tm9fmnvn> Send: .
+[30-Jul-2025 14:24:25 +0000]: <tm9fmnvn> Recv: 250 2.0.0 OK  1753885465 ffacd0b85a97d-3b792ce46fbsm5308773f8f.0 - gsmtp
+[30-Jul-2025 14:24:25 +0000]: <tm9fmnvn> Send: QUIT
+[30-Jul-2025 14:24:25 +0000]: <tm9fmnvn> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b792ce46fbsm5308773f8f.0 - gsmtp
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Connecting to tls://smtp.gmail.com:587...
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b79c3abf0csm1334448f8f.14 - gsmtp
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: EHLO localhost
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-SIZE 35882577
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-8BITMIME
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-STARTTLS
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-ENHANCEDSTATUSCODES
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-PIPELINING
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250 SMTPUTF8
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: STARTTLS
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 220 2.0.0 Ready to start TLS
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: EHLO localhost
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-SIZE 35882577
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-8BITMIME
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-ENHANCEDSTATUSCODES
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250-PIPELINING
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250 SMTPUTF8
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: AUTH PLAIN
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 334 
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: ****** [64]
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 235 2.7.0 Accepted
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250 2.1.0 OK ffacd0b85a97d-3b79c3abf0csm1334448f8f.14 - gsmtp
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: RCPT TO:<guydany8@gmail.com>
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 250 2.1.5 OK ffacd0b85a97d-3b79c3abf0csm1334448f8f.14 - gsmtp
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: DATA
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Recv: 354 Go ahead ffacd0b85a97d-3b79c3abf0csm1334448f8f.14 - gsmtp
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: MIME-Version: 1.0
+Date: Thu, 31 Jul 2025 07:10:26 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: probleme
+Message-ID: <473d6e75070da4ef472cffda4b28404f@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+
+test pour voir
+[31-Jul-2025 07:10:26 +0000]: <5hgjd2vu> Send: 
+.
+[31-Jul-2025 07:10:27 +0000]: <5hgjd2vu> Recv: 250 2.0.0 OK  1753945828 ffacd0b85a97d-3b79c3abf0csm1334448f8f.14 - gsmtp
+[31-Jul-2025 07:10:27 +0000]: <5hgjd2vu> Send: QUIT
+[31-Jul-2025 07:10:27 +0000]: <5hgjd2vu> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b79c3abf0csm1334448f8f.14 - gsmtp
+[31-Jul-2025 07:43:39 +0000]: <5gc3i5qa> Connecting to sucralose.o2switch.net:587...
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 220-sucralose.o2switch.net ESMTP Exim 4.98.2 #2 Thu, 31 Jul 2025 09:43:41 +0200 
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 220-We do not authorize the use of this system to transport unsolicited, 
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 220 and/or bulk e-mail.
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Send: EHLO localhost
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-sucralose.o2switch.net Hello rtr.23.90.216.125.unyc.it [23.90.216.125]
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-SIZE 262144000
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-LIMITS MAILMAX=1000 RCPTMAX=50000
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-8BITMIME
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-PIPELINING
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-PIPECONNECT
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-AUTH PLAIN LOGIN
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250-STARTTLS
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Recv: 250 HELP
+[31-Jul-2025 07:43:40 +0000]: <5gc3i5qa> Send: AUTH PLAIN
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 334 
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: ****** [56]
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 235 Authentication succeeded
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: MAIL FROM:<opoinsot@accens-avocats.com>
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 250 OK
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: RCPT TO:<guydany8@gmail.com>
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 250 Accepted
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: DATA
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 354 Enter message, ending with "." on a line by itself
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: MIME-Version: 1.0
+Date: Thu, 31 Jul 2025 07:43:39 +0000
+From: opoinsot@accens-avocats.com
+To: Guydany8 <guydany8@gmail.com>
+Subject: test dolibarr
+Message-ID: <f4bbdb155533924f5e0de9a22030850b@accens-avocats.com>
+X-Sender: opoinsot@accens-avocats.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+
+test 2
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: 
+.
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 250 OK id=1uhNx0-00000008wmx-1LI0
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Send: QUIT
+[31-Jul-2025 07:43:41 +0000]: <5gc3i5qa> Recv: 221 sucralose.o2switch.net closing connection
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Connecting to tls://smtp.gmail.com:587...
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 220 smtp.gmail.com ESMTP 5b1f17b1804b1-4588d8fe544sm64209085e9.1 - gsmtp
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: EHLO localhost
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-SIZE 35882577
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-8BITMIME
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-STARTTLS
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-ENHANCEDSTATUSCODES
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-PIPELINING
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250 SMTPUTF8
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: STARTTLS
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 220 2.0.0 Ready to start TLS
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: EHLO localhost
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-SIZE 35882577
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-8BITMIME
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-ENHANCEDSTATUSCODES
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250-PIPELINING
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250 SMTPUTF8
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: AUTH PLAIN
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 334 
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: ****** [64]
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 235 2.7.0 Accepted
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250 2.1.0 OK 5b1f17b1804b1-4588d8fe544sm64209085e9.1 - gsmtp
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: RCPT TO:<guydany8@gmail.com>
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Recv: 250 2.1.5 OK 5b1f17b1804b1-4588d8fe544sm64209085e9.1 - gsmtp
+[31-Jul-2025 14:43:01 +0000]: <qbndmsl2> Send: DATA
+[31-Jul-2025 14:43:02 +0000]: <qbndmsl2> Recv: 354 Go ahead 5b1f17b1804b1-4588d8fe544sm64209085e9.1 - gsmtp
+[31-Jul-2025 14:43:02 +0000]: <qbndmsl2> Send: MIME-Version: 1.0
+Date: Thu, 31 Jul 2025 14:43:01 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: guydany8@gmail.com
+Subject: test dolibarr
+Message-ID: <592a6d0627f8906556ea79344289e456@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_08363a5718e98a0692895a5ba0585902"
+
+--=_08363a5718e98a0692895a5ba0585902
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+efff
+--=_08363a5718e98a0692895a5ba0585902
+Content-Transfer-Encoding: base64
+Content-Type: application/pdf;
+ name=testry.pdf
+Content-Disposition: attachment;
+ filename=testry.pdf;
+ size=183427
+
+JVBERi0xLjUNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFu
+Zyhmci1GUikgL1N0cnVjdFRyZWVSb290IDEwIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4+
+Pg0KZW5kb2JqDQoyIDAgb2JqDQo8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1sgMyAwIFJdID4+
+DQplbmRvYmoNCjMgMCBvYmoNCjw8L1R5cGUvUGFnZS9QYXJlbnQgMiAwIFIvUmVzb3VyY2VzPDwv
+Rm9udDw8L0YxIDUgMCBSPj4vRXh0R1N0YXRlPDwvR1M3IDcgMCBSL0dTOCA4IDAgUj4+L1Byb2NT
+ZXRbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXSA+Pi9NZWRpYUJveFsgMCAwIDU5NS4y
+IDg0MS45Ml0gL0NvbnRlbnRzIDQgMCBSL0dyb3VwPDwvVHlwZS9Hcm91cC9TL1RyYW5zcGFyZW5j
+eS9DUy9EZXZpY2VSR0I+Pi9UYWJzL1MvU3RydWN0UGFyZW50cyAwPj4NCmVuZG9iag0KNCAwIG9i
+ag0KPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCAxNjY+Pg0Kc3RyZWFtDQp4nKWOPQvCMBiE
+9xfyH25sHdI3tW0SKB36YVEQFAMO4lg7Kdh28d8bSwedve3geO5BdECeR/tqW4OLAmVd4SmIJX9i
+TGbBSG0qY5hESRtj6ASdV3gIKp2gaKOglOQE7iZI+TFDQbM0cQKdsVzD3f2sPWn0owejn5tZWivo
+EkyhDbpxCnUwvMIr3E5Q49lHQf+r2EzqzHypzAbLMX7f0OwrvAFRfjWLDQplbmRzdHJlYW0NCmVu
+ZG9iag0KNSAwIG9iag0KPDwvVHlwZS9Gb250L1N1YnR5cGUvVHJ1ZVR5cGUvTmFtZS9GMS9CYXNl
+Rm9udC9BQkNERUUrQ2FsaWJyaS9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcvRm9udERlc2NyaXB0
+b3IgNiAwIFIvRmlyc3RDaGFyIDMyL0xhc3RDaGFyIDEyMS9XaWR0aHMgMTcgMCBSPj4NCmVuZG9i
+ag0KNiAwIG9iag0KPDwvVHlwZS9Gb250RGVzY3JpcHRvci9Gb250TmFtZS9BQkNERUUrQ2FsaWJy
+aS9GbGFncyAzMi9JdGFsaWNBbmdsZSAwL0FzY2VudCA3NTAvRGVzY2VudCAtMjUwL0NhcEhlaWdo
+dCA3NTAvQXZnV2lkdGggNTIxL01heFdpZHRoIDE3NDMvRm9udFdlaWdodCA0MDAvWEhlaWdodCAy
+NTAvU3RlbVYgNTIvRm9udEJCb3hbIC01MDMgLTI1MCAxMjQwIDc1MF0gL0ZvbnRGaWxlMiAxOCAw
+IFI+Pg0KZW5kb2JqDQo3IDAgb2JqDQo8PC9UeXBlL0V4dEdTdGF0ZS9CTS9Ob3JtYWwvY2EgMT4+
+DQplbmRvYmoNCjggMCBvYmoNCjw8L1R5cGUvRXh0R1N0YXRlL0JNL05vcm1hbC9DQSAxPj4NCmVu
+ZG9iag0KOSAwIG9iag0KPDwvQXV0aG9yKEd1eSBLZW55KSAvQ3JlYXRvcij+/wBNAGkAYwByAG8A
+cwBvAGYAdACuACAAVwBvAHIAZAAgADIAMAAxADYpIC9DcmVhdGlvbkRhdGUoRDoyMDI1MDczMDE2
+MDc1NiswMicwMCcpIC9Nb2REYXRlKEQ6MjAyNTA3MzAxNjA3NTYrMDInMDAnKSAvUHJvZHVjZXIo
+/v8ATQBpAGMAcgBvAHMAbwBmAHQArgAgAFcAbwByAGQAIAAyADAAMQA2KSA+Pg0KZW5kb2JqDQox
+NiAwIG9iag0KPDwvVHlwZS9PYmpTdG0vTiA2L0ZpcnN0IDM5L0ZpbHRlci9GbGF0ZURlY29kZS9M
+ZW5ndGggMjg0Pj4NCnN0cmVhbQ0KeJxtUcGKgzAQvRf6D/MHY6zCLpTCsm3ZpVREhT2UHlKd1VBN
+Shqh/ftN1GIOCyGZN/Pey2TCIgiArSBmwGwQ2MOu9xBYCFH4BiyGyNbWa0wdLYAMc0yxeN4Ic6P7
+0uxa6vBwguAMmNYwcDab5WKUBC8J1+Y/FXP3Z2eYFB6j0ESZUgYz1dKR31xjzss6kRyqrkeXcTar
+0carJvQwB3oCm6z31ksqQ5i4bSerGRSWelEPzKk0+EW8Ij3GTvOKv2UrJOUNdx26xIe0DtwIJSes
+jfjlNhjQj9LXi1JX3Kqy72xPQ+beEJlxGEdeauXhz8buHt4K3qraS+StqMjjjvdYWq15h3tR95qm
+tyZ9dz+5j43n6c6zXi7+AE3Qm78NCmVuZHN0cmVhbQ0KZW5kb2JqDQoxNyAwIG9iag0KWyAyMjYg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDQ5OCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAzNDkgMzkx
+IDMzNSAwIDAgMCAwIDQ1M10gDQplbmRvYmoNCjE4IDAgb2JqDQo8PC9GaWx0ZXIvRmxhdGVEZWNv
+ZGUvTGVuZ3RoIDE4MDI5Ny9MZW5ndGgxIDU0NjAwND4+DQpzdHJlYW0NCnic7H0HeJRV2vY57zst
+mUwyk55MwswwJJRJSCABElqGVHoLg0loCSkEDRBDAFHAKAgaQXGtKCoq6rpYJgNKsKJrW3vBsroW
+dl07trXRkv8+7zMnBH7d/df9vvXb758nuee+n+eU9/T3cJFcYZwxFo8PHasuLp9QdvHeD8uZKWc0
+Y65rSgqLZy3/JP5xxnNyGVNtJYWTix5+bBb87J2MKVvLiktKpzxefSHT1W1nzGgomz6t/I4dsVcz
+3Rk7mfrUNWXlvsJb/LuOMj78OaZmvjCtPGvo9Y/W3ssY/xhPra5dUtM8bkjNdMaaUJ9aXbuy1bmv
++c1hjN2cwZj+wYbmRUvWvauOYKxZx5jFs6hmeTPrw9x4/hUob13UtLrhi8Nbkf921Oe8trG+pq7r
+2F2vof4mpA9vRMByV8oh+Kif9Wtc0nrWkmbzWLR9PGOnzz2jvmVpwqHExYx1b0Z6S9Oy2pryrIlr
+GXt6A2MjDEtqzmoevCTtCMo/jXTnkvrWmmvP37ES/UF5tmFpzZL6uMhLVjAxhiy7tXnZ8tZuO9uI
+9r... [truncated 247616 bytes]
+[31-Jul-2025 14:43:02 +0000]: <qbndmsl2> Send: .
+[31-Jul-2025 14:43:02 +0000]: <qbndmsl2> Recv: 250 2.0.0 OK  1753972984 5b1f17b1804b1-4588d8fe544sm64209085e9.1 - gsmtp
+[31-Jul-2025 14:43:02 +0000]: <qbndmsl2> Send: QUIT
+[31-Jul-2025 14:43:03 +0000]: <qbndmsl2> Recv: 221 2.0.0 closing connection 5b1f17b1804b1-4588d8fe544sm64209085e9.1 - gsmtp
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Connecting to tls://smtp.gmail.com:587...
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 220 smtp.gmail.com ESMTP ffacd0b85a97d-3b79c4a6f6fsm2726893f8f.74 - gsmtp
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: EHLO localhost
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-SIZE 35882577
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-8BITMIME
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-STARTTLS
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-ENHANCEDSTATUSCODES
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-PIPELINING
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250 SMTPUTF8
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: STARTTLS
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 220 2.0.0 Ready to start TLS
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: EHLO localhost
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-smtp.gmail.com at your service, [23.90.216.125]
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-SIZE 35882577
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-8BITMIME
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-ENHANCEDSTATUSCODES
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250-PIPELINING
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250 SMTPUTF8
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: AUTH PLAIN
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 334 
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: ****** [64]
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 235 2.7.0 Accepted
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: MAIL FROM:<guykeny.ndayizeye8@gmail.com>
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250 2.1.0 OK ffacd0b85a97d-3b79c4a6f6fsm2726893f8f.74 - gsmtp
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: RCPT TO:<guykeny.ndayizeye8@gmail.com>
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 250 2.1.5 OK ffacd0b85a97d-3b79c4a6f6fsm2726893f8f.74 - gsmtp
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: DATA
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Recv: 354 Go ahead ffacd0b85a97d-3b79c4a6f6fsm2726893f8f.74 - gsmtp
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: MIME-Version: 1.0
+Date: Thu, 31 Jul 2025 14:44:15 +0000
+From: guykeny.ndayizeye8@gmail.com
+To: guykeny.ndayizeye8@gmail.com
+Subject: test dolibarr
+Message-ID: <b047797e6c88246db32f7836856d127b@gmail.com>
+X-Sender: guykeny.ndayizeye8@gmail.com
+Content-Type: multipart/mixed;
+ boundary="=_dd5771f83ca6fcadb22aa055b93b89e2"
+
+--=_dd5771f83ca6fcadb22aa055b93b89e2
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+dvvvv
+--=_dd5771f83ca6fcadb22aa055b93b89e2
+Content-Transfer-Encoding: base64
+Content-Type: application/pdf;
+ name=testry.pdf
+Content-Disposition: attachment;
+ filename=testry.pdf;
+ size=183427
+
+JVBERi0xLjUNCiW1tbW1DQoxIDAgb2JqDQo8PC9UeXBlL0NhdGFsb2cvUGFnZXMgMiAwIFIvTGFu
+Zyhmci1GUikgL1N0cnVjdFRyZWVSb290IDEwIDAgUi9NYXJrSW5mbzw8L01hcmtlZCB0cnVlPj4+
+Pg0KZW5kb2JqDQoyIDAgb2JqDQo8PC9UeXBlL1BhZ2VzL0NvdW50IDEvS2lkc1sgMyAwIFJdID4+
+DQplbmRvYmoNCjMgMCBvYmoNCjw8L1R5cGUvUGFnZS9QYXJlbnQgMiAwIFIvUmVzb3VyY2VzPDwv
+Rm9udDw8L0YxIDUgMCBSPj4vRXh0R1N0YXRlPDwvR1M3IDcgMCBSL0dTOCA4IDAgUj4+L1Byb2NT
+ZXRbL1BERi9UZXh0L0ltYWdlQi9JbWFnZUMvSW1hZ2VJXSA+Pi9NZWRpYUJveFsgMCAwIDU5NS4y
+IDg0MS45Ml0gL0NvbnRlbnRzIDQgMCBSL0dyb3VwPDwvVHlwZS9Hcm91cC9TL1RyYW5zcGFyZW5j
+eS9DUy9EZXZpY2VSR0I+Pi9UYWJzL1MvU3RydWN0UGFyZW50cyAwPj4NCmVuZG9iag0KNCAwIG9i
+ag0KPDwvRmlsdGVyL0ZsYXRlRGVjb2RlL0xlbmd0aCAxNjY+Pg0Kc3RyZWFtDQp4nKWOPQvCMBiE
+9xfyH25sHdI3tW0SKB36YVEQFAMO4lg7Kdh28d8bSwedve3geO5BdECeR/tqW4OLAmVd4SmIJX9i
+TGbBSG0qY5hESRtj6ASdV3gIKp2gaKOglOQE7iZI+TFDQbM0cQKdsVzD3f2sPWn0owejn5tZWivo
+EkyhDbpxCnUwvMIr3E5Q49lHQf+r2EzqzHypzAbLMX7f0OwrvAFRfjWLDQplbmRzdHJlYW0NCmVu
+ZG9iag0KNSAwIG9iag0KPDwvVHlwZS9Gb250L1N1YnR5cGUvVHJ1ZVR5cGUvTmFtZS9GMS9CYXNl
+Rm9udC9BQkNERUUrQ2FsaWJyaS9FbmNvZGluZy9XaW5BbnNpRW5jb2RpbmcvRm9udERlc2NyaXB0
+b3IgNiAwIFIvRmlyc3RDaGFyIDMyL0xhc3RDaGFyIDEyMS9XaWR0aHMgMTcgMCBSPj4NCmVuZG9i
+ag0KNiAwIG9iag0KPDwvVHlwZS9Gb250RGVzY3JpcHRvci9Gb250TmFtZS9BQkNERUUrQ2FsaWJy
+aS9GbGFncyAzMi9JdGFsaWNBbmdsZSAwL0FzY2VudCA3NTAvRGVzY2VudCAtMjUwL0NhcEhlaWdo
+dCA3NTAvQXZnV2lkdGggNTIxL01heFdpZHRoIDE3NDMvRm9udFdlaWdodCA0MDAvWEhlaWdodCAy
+NTAvU3RlbVYgNTIvRm9udEJCb3hbIC01MDMgLTI1MCAxMjQwIDc1MF0gL0ZvbnRGaWxlMiAxOCAw
+IFI+Pg0KZW5kb2JqDQo3IDAgb2JqDQo8PC9UeXBlL0V4dEdTdGF0ZS9CTS9Ob3JtYWwvY2EgMT4+
+DQplbmRvYmoNCjggMCBvYmoNCjw8L1R5cGUvRXh0R1N0YXRlL0JNL05vcm1hbC9DQSAxPj4NCmVu
+ZG9iag0KOSAwIG9iag0KPDwvQXV0aG9yKEd1eSBLZW55KSAvQ3JlYXRvcij+/wBNAGkAYwByAG8A
+cwBvAGYAdACuACAAVwBvAHIAZAAgADIAMAAxADYpIC9DcmVhdGlvbkRhdGUoRDoyMDI1MDczMDE2
+MDc1NiswMicwMCcpIC9Nb2REYXRlKEQ6MjAyNTA3MzAxNjA3NTYrMDInMDAnKSAvUHJvZHVjZXIo
+/v8ATQBpAGMAcgBvAHMAbwBmAHQArgAgAFcAbwByAGQAIAAyADAAMQA2KSA+Pg0KZW5kb2JqDQox
+NiAwIG9iag0KPDwvVHlwZS9PYmpTdG0vTiA2L0ZpcnN0IDM5L0ZpbHRlci9GbGF0ZURlY29kZS9M
+ZW5ndGggMjg0Pj4NCnN0cmVhbQ0KeJxtUcGKgzAQvRf6D/MHY6zCLpTCsm3ZpVREhT2UHlKd1VBN
+Shqh/ftN1GIOCyGZN/Pey2TCIgiArSBmwGwQ2MOu9xBYCFH4BiyGyNbWa0wdLYAMc0yxeN4Ic6P7
+0uxa6vBwguAMmNYwcDab5WKUBC8J1+Y/FXP3Z2eYFB6j0ESZUgYz1dKR31xjzss6kRyqrkeXcTar
+0carJvQwB3oCm6z31ksqQ5i4bSerGRSWelEPzKk0+EW8Ij3GTvOKv2UrJOUNdx26xIe0DtwIJSes
+jfjlNhjQj9LXi1JX3Kqy72xPQ+beEJlxGEdeauXhz8buHt4K3qraS+StqMjjjvdYWq15h3tR95qm
+tyZ9dz+5j43n6c6zXi7+AE3Qm78NCmVuZHN0cmVhbQ0KZW5kb2JqDQoxNyAwIG9iag0KWyAyMjYg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDQ5OCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAzNDkgMzkx
+IDMzNSAwIDAgMCAwIDQ1M10gDQplbmRvYmoNCjE4IDAgb2JqDQo8PC9GaWx0ZXIvRmxhdGVEZWNv
+ZGUvTGVuZ3RoIDE4MDI5Ny9MZW5ndGgxIDU0NjAwND4+DQpzdHJlYW0NCnic7H0HeJRV2vY57zst
+mUwyk55MwswwJJRJSCABElqGVHoLg0loCSkEDRBDAFHAKAgaQXGtKCoq6rpYJgNKsKJrW3vBsroW
+dl07trXRkv8+7zMnBH7d/df9vvXb758nuee+n+eU9/T3cJFcYZwxFo8PHasuLp9QdvHeD8uZKWc0
+Y65rSgqLZy3/JP5xxnNyGVNtJYWTix5+bBb87J2MKVvLiktKpzxefSHT1W1nzGgomz6t/I4dsVcz
+3Rk7mfrUNWXlvsJb/LuOMj78OaZmvjCtPGvo9Y/W3ssY/xhPra5dUtM8bkjNdMaaUJ9aXbuy1bmv
++c1hjN2cwZj+wYbmRUvWvauOYKxZx5jFs6hmeTPrw9x4/hUob13UtLrhi8Nbkf921Oe8trG+pq7r
+2F2vof4mpA9vRMByV8oh+Kif9Wtc0nrWkmbzWLR9PGOnzz2jvmVpwqHExYx1b0Z6S9Oy2pryrIlr
+GXt6A2MjDEtqzmoevCTtCMo/jXTnkvrWmmvP37ES/UF5tmFpzZL6uMhLVjAxhiy7tXnZ8... [truncated 247627 bytes]
+[31-Jul-2025 14:44:15 +0000]: <qbndmsl2> Send: .
+[31-Jul-2025 14:44:16 +0000]: <qbndmsl2> Recv: 250 2.0.0 OK  1753973057 ffacd0b85a97d-3b79c4a6f6fsm2726893f8f.74 - gsmtp
+[31-Jul-2025 14:44:16 +0000]: <qbndmsl2> Send: QUIT
+[31-Jul-2025 14:44:16 +0000]: <qbndmsl2> Recv: 221 2.0.0 closing connection ffacd0b85a97d-3b79c4a6f6fsm2726893f8f.74 - gsmtp
